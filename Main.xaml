@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap2010:Annotation.AnnotationText="UPTF00000088eyI8SGVscExpbms+a19fQmFja2luZ0ZpZWxkIjpudWxsLCI8SW5pdGlhbFRvb2x0aXA+a19fQmFja2luZ0ZpZWxkIjpudWxsLCI8VmVyc2lvbj5rX19CYWNraW5nRmllbGQiOjF9" sap:VirtualizedContainerService.HintSize="1098.4,5822.4" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:s="clr-namespace:System;assembly=System.Private.CoreLib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data.Common" xmlns:ue="clr-namespace:UiPath.Excel;assembly=UiPath.Excel.Activities" xmlns:ueab="clr-namespace:UiPath.Excel.Activities.Business;assembly=UiPath.Excel.Activities" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:uuam="clr-namespace:UiPath.UIAutomationNext.Activities.Models;assembly=UiPath.UIAutomationNext.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap2010:Annotation.AnnotationText="UPTF00000088eyI8SGVscExpbms+a19fQmFja2luZ0ZpZWxkIjpudWxsLCI8SW5pdGlhbFRvb2x0aXA+a19fQmFja2luZ0ZpZWxkIjpudWxsLCI8VmVyc2lvbj5rX19CYWNraW5nRmllbGQiOjF9" sap:VirtualizedContainerService.HintSize="1109.6,647.2" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:s="clr-namespace:System;assembly=System.Private.CoreLib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data.Common" xmlns:ue="clr-namespace:UiPath.Excel;assembly=UiPath.Excel.Activities" xmlns:ueab="clr-namespace:UiPath.Excel.Activities.Business;assembly=UiPath.Excel.Activities" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:uuam="clr-namespace:UiPath.UIAutomationNext.Activities.Models;assembly=UiPath.UIAutomationNext.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
       <x:String>System.Activities</x:String>
@@ -121,7 +121,7 @@
       <AssemblyReference>System.Runtime.Numerics</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Main" sap:VirtualizedContainerService.HintSize="688,5757.6" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Main" sap:VirtualizedContainerService.HintSize="416,396" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="sd:DataTable" Name="tickets_df" />
       <Variable x:TypeArguments="ui:UiElement" Name="Browser1" />
@@ -134,7 +134,7 @@
         <x:Boolean x:Key="IsPinned">False</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Utilizar Navegador Chrome: Zoho" sap:VirtualizedContainerService.HintSize="625.6,279.2" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" InteractionMode="DebuggerApi" OpenMode="IfNotOpen" OutUiElement="[Browser1]" ScopeGuid="1c323c33-3649-4aa5-b9ec-ae67e2169da9" Version="V2">
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Utilizar Navegador Chrome: Zoho" sap:VirtualizedContainerService.HintSize="353.6,64.8" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" InteractionMode="DebuggerApi" OpenMode="IfNotOpen" OutUiElement="[Browser1]" ScopeGuid="1c323c33-3649-4aa5-b9ec-ae67e2169da9" Version="V2">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
@@ -147,7 +147,7 @@
                 <x:Boolean x:Key="IsPinned">False</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Clic 'SIGN IN'" sap:VirtualizedContainerService.HintSize="575.2,197.6" sap2010:WorkflowViewState.IdRef="NClick_2" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="1c323c33-3649-4aa5-b9ec-ae67e2169da9" Version="V3">
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Clic 'SIGN IN'" sap:VirtualizedContainerService.HintSize="952,197.6" sap2010:WorkflowViewState.IdRef="NClick_2" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="1c323c33-3649-4aa5-b9ec-ae67e2169da9" Version="V3">
               <uix:NClick.Target>
                 <uix:TargetAnchorable BrowserURL="https://www.zoho.com/desk/lp/logout.html" CvTextArea="1684, 215, 57, 15" CvTextArgument="SIGN IN" CvType="Text" DesignTimeRectangle="1668, 198, 93, 49" DesignTimeScaleFactor="1.25" ElementType="Text" FriendlyName="'SIGN IN'" FullSelectorArgument="&lt;webctrl class='zgh-login' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl class='zgh-login' tag='A' type='' aaname='SIGN IN' check:innerText='SIGN IN' /&gt;" Guid="6d53ee8c-0858-4c23-9994-405498f70b4c" InformativeScreenshot="31da5a11eaaa68c46b20b92aceb4aae3.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Help Desk Software with Robust Features | Zoho Desk Logout' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive">
                   <uix:TargetAnchorable.Anchors>
@@ -158,7 +158,7 @@
                 </uix:TargetAnchorable>
               </uix:NClick.Target>
             </uix:NClick>
-            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Escribir en 'para acceder a Desk'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="575.2,258.4" sap2010:WorkflowViewState.IdRef="NTypeInto_1" ScopeIdentifier="1c323c33-3649-4aa5-b9ec-ae67e2169da9" Text="gameralexis12@gmail.com" Version="V3">
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Escribir en 'para acceder a Desk'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="952,258.4" sap2010:WorkflowViewState.IdRef="NTypeInto_1" ScopeIdentifier="1c323c33-3649-4aa5-b9ec-ae67e2169da9" Text="gameralexis12@gmail.com" Version="V3">
               <uix:NTypeInto.Target>
                 <uix:TargetAnchorable BrowserURL="https://accounts.zoho.com/signin?servicename=ZohoSupport&amp;signupurl=https://www.zoho.com/desk/signup.html&amp;serviceurl=https%3A%2F%2Fdesk.zoho.com%3Fref_value%3Ddirect%253Adesk%257Cdirect%253Adesk%257Cdirect%253Adesk%252Chttps%253A%252F%252Fwww.zoho.com%252Fdesk%252Flp%252Flogout.html%252C%252CDesktop%252Chttps%253A%252F%252Fwww.zoho.com%252Fdesk%252Flp%252Flogout.html" CvElementArea="473, 554, 502, 61" CvType="InputBox" DesignTimeRectangle="475, 556, 498, 55" DesignTimeScaleFactor="1.25" ElementType="InputBox" FriendlyName="'INPUT login_id'" FullSelectorArgument="&lt;webctrl id='login_id' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='login_id' tag='INPUT' type='text' class='textbox uvtextindent0' aaname='' /&gt;" Guid="fda0762b-6bb4-477e-8071-572ded84959f" InformativeScreenshot="41539832e6728bc9b2c4013d53fa856b.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Zoho Accounts' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive">
                   <uix:TargetAnchorable.Anchors>
@@ -169,7 +169,7 @@
                 </uix:TargetAnchorable>
               </uix:NTypeInto.Target>
             </uix:NTypeInto>
-            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Clic 'Siguiente'" sap:VirtualizedContainerService.HintSize="575.2,197.6" sap2010:WorkflowViewState.IdRef="NClick_3" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="1c323c33-3649-4aa5-b9ec-ae67e2169da9" Version="V3">
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Clic 'Siguiente'" sap:VirtualizedContainerService.HintSize="952,197.6" sap2010:WorkflowViewState.IdRef="NClick_3" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="1c323c33-3649-4aa5-b9ec-ae67e2169da9" Version="V3">
               <uix:NClick.Target>
                 <uix:TargetAnchorable BrowserURL="https://accounts.zoho.com/signin?servicename=ZohoSupport&amp;signupurl=https://www.zoho.com/desk/signup.html&amp;serviceurl=https%3A%2F%2Fdesk.zoho.com%3Fref_value%3Ddirect%253Adesk%257Cdirect%253Adesk%257Cdirect%253Adesk%252Chttps%253A%252F%252Fwww.zoho.com%252Fdesk%252Flp%252Flogout.html%252C%252CDesktop%252Chttps%253A%252F%252Fwww.zoho.com%252Fdesk%252Flp%252Flogout.html" CvElementArea="473, 640, 500, 59" CvTextArea="679, 660, 87, 21" CvTextArgument="Siguiente" CvType="Button" DesignTimeRectangle="475, 641, 498, 55" DesignTimeScaleFactor="1.25" ElementType="Button" FriendlyName="'Siguiente'" FullSelectorArgument="&lt;webctrl id='nextbtn' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl id='nextbtn' tag='BUTTON' type='' class='btn blue' aaname='Siguiente' check:innerText='Siguiente' /&gt;" Guid="b4e85275-5d6f-475a-a40a-6709423417a1" InformativeScreenshot="52442c2c448ee08b82f9e367400e0fe0.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Zoho Accounts' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive">
                   <uix:TargetAnchorable.Anchors>
@@ -180,7 +180,7 @@
                 </uix:TargetAnchorable>
               </uix:NClick.Target>
             </uix:NClick>
-            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Escribir en 'SPAN'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="575.2,258.4" sap2010:WorkflowViewState.IdRef="NTypeInto_2" IsPassword="True" ScopeIdentifier="1c323c33-3649-4aa5-b9ec-ae67e2169da9" Text="passwordia12345" Version="V3">
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Escribir en 'SPAN'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="952,258.4" sap2010:WorkflowViewState.IdRef="NTypeInto_2" IsPassword="True" ScopeIdentifier="1c323c33-3649-4aa5-b9ec-ae67e2169da9" Text="passwordia12345" Version="V3">
               <uix:NTypeInto.Target>
                 <uix:TargetAnchorable BrowserURL="https://accounts.zoho.com/signin?servicename=ZohoSupport&amp;signupurl=https://www.zoho.com/desk/signup.html&amp;serviceurl=https%3A%2F%2Fdesk.zoho.com%3Fref_value%3Ddirect%253Adesk%257Cdirect%253Adesk%257Cdirect%253Adesk%252Chttps%253A%252F%252Fwww.zoho.com%252Fdesk%252Flp%252Flogout.html%252C%252CDesktop%252Chttps%253A%252F%252Fwww.zoho.com%252Fdesk%252Flp%252Flogout.html" CvTextArea="491, 655, 207, 20" CvTextArgument="Escriba la contrasena" CvType="Text" DesignTimeRectangle="475, 638, 498, 55" DesignTimeScaleFactor="1.25" ElementType="InputBoxPassword" FriendlyName="'INPUT password'" FullSelectorArgument="&lt;webctrl id='password' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='password' tag='INPUT' type='password' class='textbox' aaname='' /&gt;" Guid="b03831b7-2535-4cde-91f9-fc2c91983b5d" InformativeScreenshot="58b938af2affeabc0204acb81ce0d13d.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Zoho Accounts' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive">
                   <uix:TargetAnchorable.Anchors>
@@ -192,7 +192,7 @@
                 </uix:TargetAnchorable>
               </uix:NTypeInto.Target>
             </uix:NTypeInto>
-            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Clic 'Iniciar sesión'" sap:VirtualizedContainerService.HintSize="575.2,197.6" sap2010:WorkflowViewState.IdRef="NClick_4" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="1c323c33-3649-4aa5-b9ec-ae67e2169da9" Version="V3">
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Clic 'Iniciar sesión'" sap:VirtualizedContainerService.HintSize="952,197.6" sap2010:WorkflowViewState.IdRef="NClick_4" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="1c323c33-3649-4aa5-b9ec-ae67e2169da9" Version="V3">
               <uix:NClick.Target>
                 <uix:TargetAnchorable BrowserURL="https://accounts.zoho.com/signin?servicename=ZohoSupport&amp;signupurl=https://www.zoho.com/desk/signup.html&amp;serviceurl=https%3A%2F%2Fdesk.zoho.com%3Fref_value%3Ddirect%253Adesk%257Cdirect%253Adesk%257Cdirect%253Adesk%252Chttps%253A%252F%252Fwww.zoho.com%252Fdesk%252Flp%252Flogout.html%252C%252CDesktop%252Chttps%253A%252F%252Fwww.zoho.com%252Fdesk%252Flp%252Flogout.html" CvElementArea="474, 780, 499, 59" CvTextArea="664, 798, 119, 17" CvTextArgument="Iniciar sesion" CvType="Button" DesignTimeRectangle="475, 781, 498, 55" DesignTimeScaleFactor="1.25" ElementType="Button" FriendlyName="'Iniciar sesión'" FullSelectorArgument="&lt;webctrl id='nextbtn' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl id='nextbtn' tag='BUTTON' type='' class='btn blue' aaname='Iniciar sesión' check:innerText='Iniciar sesión' /&gt;" Guid="97a6f56f-99cb-446a-a047-60e1c049a465" InformativeScreenshot="3a2be18a4047e855bfe3a65028a74b4a.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Zoho Accounts' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive">
                   <uix:TargetAnchorable.Anchors>
@@ -205,8 +205,42 @@
                 </uix:TargetAnchorable>
               </uix:NClick.Target>
             </uix:NClick>
-            <Delay DisplayName="Retraso" Duration="00:00:05" sap:VirtualizedContainerService.HintSize="575.2,130.4" sap2010:WorkflowViewState.IdRef="Delay_1" />
-            <uix:NForEachUiElement DisplayName="Para cada elemento de interfaz de usuario" ExtractDataSettings="&lt;Table xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xsd='http://www.w3.org/2001/XMLSchema' Type='Structured' AddCvHeader='true' IsScrollEnabled='false'&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' Name='CurrentElement' ReferenceName='Column0'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;true&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' Name='CurrentLabel_1' ReferenceName='Column1'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;true&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&lt;/Table&gt;" ExtractMetadata="&lt;extract&gt;&lt;row exact='1'&gt;&lt;webctrl tag='div' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='3' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;/row&gt;&lt;column exact='1' name='Column0' attr='fulltext'&gt;&lt;webctrl tag='div' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='3' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='a' idx='1' /&gt;&lt;/column&gt;&lt;column exact='1' name='Column1' attr='fulltext'&gt;&lt;webctrl tag='div' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='3' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='2' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='2' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='a' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;/column&gt;&lt;/extract&gt;" sap:VirtualizedContainerService.HintSize="575.2,2723.2" sap2010:WorkflowViewState.IdRef="NForEachUiElement_2" LimitExtractionTo="None" MaximumResults="0" ScopeIdentifier="1c323c33-3649-4aa5-b9ec-ae67e2169da9" Version="V3">
+            <uix:NCheckState DisplayName="Comprobar estado de seguridad" sap:VirtualizedContainerService.HintSize="952,531.2" sap2010:WorkflowViewState.IdRef="NCheckState_10" ScopeIdentifier="1c323c33-3649-4aa5-b9ec-ae67e2169da9" Version="V3">
+              <uix:NCheckState.IfExists>
+                <Sequence DisplayName="Aparece el destino" sap:VirtualizedContainerService.HintSize="449.6,272.8" sap2010:WorkflowViewState.IdRef="Sequence_64">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Clic 'Acepto'" sap:VirtualizedContainerService.HintSize="387.2,182.4" sap2010:WorkflowViewState.IdRef="NClick_72" InteractionMode="HardwareEvents" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="1c323c33-3649-4aa5-b9ec-ae67e2169da9" Version="V3">
+                    <uix:NClick.Target>
+                      <uix:TargetAnchorable BrowserURL="https://accounts.zoho.com/announcement/signin-block?servicename=ZohoSupport&amp;serviceurl=https%3A%2F%2Fdesk.zoho.com%3Fref_value%3Ddirect%253Adesk%257Cdirect%253Adesk%257Cdirect%253Adesk%252Chttps%253A%252F%252Fwww.zoho.com%252Fdesk%252Flp%252Flogout.html%252C%252CDesktop%252Chttps%253A%252F%252Fwww.zoho.com%252Fdesk%252Flp%252Flogout.html" DesignTimeRectangle="382, 790, 135, 55" DesignTimeScaleFactor="1.25" ElementType="Text" FriendlyName="'Acepto'" FullSelectorArgument="&lt;webctrl id='continue_button' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl id='continue_button' tag='A' type='' class='blue_btn continue_button' aaname='Acepto' check:innerText='Acepto' /&gt;" Guid="b377a35b-5d4c-46b8-ac6b-5230cfdcc372" ImageBase64="" InformativeScreenshot="f2b54d9254594bd6d98192c16dc14f20.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Zoho Accounts' /&gt;" SearchSteps="Selector" Version="V2" Visibility="Interactive" />
+                    </uix:NClick.Target>
+                  </uix:NClick>
+                </Sequence>
+              </uix:NCheckState.IfExists>
+              <uix:NCheckState.IfNotExists>
+                <Sequence DisplayName="No aparece el destino" sap:VirtualizedContainerService.HintSize="449.6,106.4" sap2010:WorkflowViewState.IdRef="Sequence_65">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                </Sequence>
+              </uix:NCheckState.IfNotExists>
+              <uix:NCheckState.Target>
+                <uix:TargetAnchorable BrowserURL="https://accounts.zoho.com/announcement/signin-block?servicename=ZohoSupport&amp;serviceurl=https%3A%2F%2Fdesk.zoho.com%3Fref_value%3Ddirect%253Adesk%257Cdirect%253Adesk%257Cdirect%253Adesk%252Chttps%253A%252F%252Fwww.zoho.com%252Fdesk%252Flp%252Flogout.html%252C%252CDesktop%252Chttps%253A%252F%252Fwww.zoho.com%252Fdesk%252Flp%252Flogout.html" DesignTimeRectangle="382, 790, 135, 55" DesignTimeScaleFactor="1.25" ElementType="Text" FriendlyName="'Acepto'" FullSelectorArgument="&lt;webctrl id='continue_button' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl id='continue_button' tag='A' type='' class='blue_btn continue_button' aaname='Acepto' check:innerText='Acepto' /&gt;" Guid="e0553028-3b8e-4c80-8311-49680447ccaa" ImageBase64="" InformativeScreenshot="703b8274ba5f0921bf07830f01d004c8.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Zoho Accounts' /&gt;" SearchSteps="Selector" Version="V2" Visibility="Interactive" />
+              </uix:NCheckState.Target>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+            </uix:NCheckState>
+            <Delay DisplayName="Retraso" Duration="00:00:05" sap:VirtualizedContainerService.HintSize="952,130.4" sap2010:WorkflowViewState.IdRef="Delay_1" />
+            <uix:NForEachUiElement DisplayName="Para cada elemento de interfaz de usuario" ExtractDataSettings="&lt;Table xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xsd='http://www.w3.org/2001/XMLSchema' Type='Structured' AddCvHeader='true' IsScrollEnabled='false'&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' Name='CurrentElement' ReferenceName='Column0'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;true&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' Name='CurrentLabel_1' ReferenceName='Column1'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;true&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&lt;/Table&gt;" ExtractMetadata="&lt;extract&gt;&lt;row exact='1'&gt;&lt;webctrl tag='div' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='3' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;/row&gt;&lt;column exact='1' name='Column0' attr='fulltext'&gt;&lt;webctrl tag='div' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='3' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='a' idx='1' /&gt;&lt;/column&gt;&lt;column exact='1' name='Column1' attr='fulltext'&gt;&lt;webctrl tag='div' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='3' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='2' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='2' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='a' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;/column&gt;&lt;/extract&gt;" sap:VirtualizedContainerService.HintSize="952,2723.2" sap2010:WorkflowViewState.IdRef="NForEachUiElement_2" LimitExtractionTo="None" MaximumResults="0" ScopeIdentifier="1c323c33-3649-4aa5-b9ec-ae67e2169da9" Version="V3">
               <uix:NForEachUiElement.Body>
                 <ActivityAction x:TypeArguments="x:Int32">
                   <ActivityAction.Argument>
@@ -239,15 +273,9 @@
                               </uix:TargetAnchorable>
                             </uix:NClick.Target>
                           </uix:NClick>
-                          <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Clic 'Dirección: Descargas'" sap:VirtualizedContainerService.HintSize="353.6,197.6" sap2010:WorkflowViewState.IdRef="NClick_47" InteractionMode="HardwareEvents" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="1c323c33-3649-4aa5-b9ec-ae67e2169da9" Version="V3">
+                          <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Clic 'Ubicaciones anteriores'" sap:VirtualizedContainerService.HintSize="353.6,197.6" sap2010:WorkflowViewState.IdRef="NClick_47" InteractionMode="HardwareEvents" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="1c323c33-3649-4aa5-b9ec-ae67e2169da9" Version="V3">
                             <uix:NClick.Target>
-                              <uix:TargetAnchorable CvTextArea="235, 61, 71, 17" CvTextArgument="Descargas" CvType="Text" DesignTimeRectangle="190, 48, 389, 44" DesignTimeScaleFactor="1.25" ElementType="Toolbar" FriendlyName="'Dirección: Descargas'" FullSelectorArgument="&lt;wnd aaname='Cargando' cls='msctls_progress32' /&gt;&lt;wnd ctrlid='1001' title='Dirección: Descargas' /&gt;" FuzzySelectorArgument="&lt;wnd aaname='Cargando' cls='msctls_progress32' /&gt;&lt;wnd ctrlid='1001' title='Dirección: Descargas' check:text='Dirección: Descargas' /&gt;" Guid="65f1da3f-1cfe-4b3e-8374-147599e0c0b6" InformativeScreenshot="86ece30a732cc75cceaba69a10b224c3.png" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='#32770' title='Guardar como' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V2" Visibility="Interactive">
-                                <uix:TargetAnchorable.Anchors>
-                                  <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
-                                    <uix:Target DesignTimeRectangle="579, 48, 47, 47" ElementType="Button" FriendlyName="'Ubicaciones anteriores'" FullSelectorArgument="&lt;wnd aaname='Cargando' cls='msctls_progress32' /&gt;&lt;wnd cls='ToolbarWindow32' title='Banda de direcciones' /&gt;&lt;ctrl name='Banda de direcciones' role='tool bar' /&gt;&lt;ctrl name='Ubicaciones anteriores' role='push button' /&gt;" FuzzySelectorArgument="&lt;wnd aaname='Cargando' cls='msctls_progress32' /&gt;&lt;wnd cls='ToolbarWindow32' title='Banda de direcciones' /&gt;&lt;ctrl name='Banda de direcciones' role='tool bar' /&gt;&lt;ctrl name='Ubicaciones anteriores' role='push button' automationid='' check:text='Ubicaciones anteriores' /&gt;" SearchSteps="Selector, FuzzySelector" />
-                                  </scg:List>
-                                </uix:TargetAnchorable.Anchors>
-                              </uix:TargetAnchorable>
+                              <uix:TargetAnchorable DesignTimeRectangle="579, 48, 47, 47" DesignTimeScaleFactor="1.25" ElementType="Button" FriendlyName="'Ubicaciones anteriores'" FullSelectorArgument="&lt;wnd aaname='Cargando' cls='msctls_progress32' /&gt;&lt;wnd cls='ToolbarWindow32' title='Banda de direcciones' /&gt;&lt;ctrl name='Banda de direcciones' role='tool bar' /&gt;&lt;ctrl name='Ubicaciones anteriores' role='push button' /&gt;" FuzzySelectorArgument="&lt;wnd aaname='Cargando' cls='msctls_progress32' /&gt;&lt;wnd cls='ToolbarWindow32' title='Banda de direcciones' /&gt;&lt;ctrl name='Banda de direcciones' role='tool bar' /&gt;&lt;ctrl name='Ubicaciones anteriores' role='push button' automationid='' check:text='Ubicaciones anteriores' /&gt;" Guid="5631e2e1-832e-450b-b9bf-5613b2c22145" ImageBase64="" InformativeScreenshot="66d2e9f849d1e38487806228c53402bc.png" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='#32770' title='Guardar como' /&gt;" SearchSteps="Selector" Version="V2" Visibility="Interactive" />
                             </uix:NClick.Target>
                           </uix:NClick>
                           <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Escribir en 'C:\Users\alexm\Download…'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="353.6,258.4" sap2010:WorkflowViewState.IdRef="NTypeInto_16" InteractionMode="HardwareEvents" ScopeIdentifier="1c323c33-3649-4aa5-b9ec-ae67e2169da9" Text="C:\Users\alexm\Downloads\ALEXIS\Repositories\IA1_Proyecto1_201800476\files" Version="V3">
@@ -261,7 +289,7 @@
                               </uix:TargetAnchorable>
                             </uix:NTypeInto.Target>
                           </uix:NTypeInto>
-                          <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Clic 'Banda de direcciones'" sap:VirtualizedContainerService.HintSize="353.6,197.6" sap2010:WorkflowViewState.IdRef="NClick_48" InteractionMode="HardwareEvents" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="1c323c33-3649-4aa5-b9ec-ae67e2169da9" Version="V3">
+                          <uix:NClick ActivateBefore="True" ClickType="Double" DisplayName="Clic 'Banda de direcciones'" sap:VirtualizedContainerService.HintSize="353.6,197.6" sap2010:WorkflowViewState.IdRef="NClick_48" InteractionMode="HardwareEvents" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="1c323c33-3649-4aa5-b9ec-ae67e2169da9" Version="V3">
                             <uix:NClick.Target>
                               <uix:TargetAnchorable DesignTimeRectangle="626, 48, 47, 44" DesignTimeScaleFactor="1.25" ElementType="Toolbar" FriendlyName="'Banda de direcciones'" FullSelectorArgument="&lt;wnd aaname='Cargando' cls='msctls_progress32' /&gt;&lt;wnd cls='ToolbarWindow32' title='Banda de direcciones' /&gt;" FuzzySelectorArgument="&lt;wnd aaname='Cargando' cls='msctls_progress32' /&gt;&lt;wnd cls='ToolbarWindow32' title='Banda de direcciones' check:text='Banda de direcciones' /&gt;" Guid="193cc78b-f528-4040-8eb7-d5e87b5617b8" InformativeScreenshot="4b9fda3c968764c997c165ce269f61bb.png" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='#32770' title='Guardar como' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V2" Visibility="Interactive">
                                 <uix:TargetAnchorable.Anchors>
@@ -348,12 +376,12 @@
       </uix:NApplicationCard.TargetApp>
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
-          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
           <x:Boolean x:Key="IsPinned">False</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </uix:NApplicationCard>
-    <ueab:ExcelProcessScopeX DisplayAlerts="{x:Null}" ExistingProcessAction="{x:Null}" FileConflictResolution="{x:Null}" LaunchMethod="{x:Null}" LaunchTimeout="{x:Null}" MacroSettings="{x:Null}" ProcessMode="{x:Null}" ShowExcelWindow="{x:Null}" DisplayName="Alcance del proceso de Excel" sap:VirtualizedContainerService.HintSize="625.6,64.8" sap2010:WorkflowViewState.IdRef="ExcelProcessScopeX_1">
+    <ueab:ExcelProcessScopeX DisplayAlerts="{x:Null}" ExistingProcessAction="{x:Null}" FileConflictResolution="{x:Null}" LaunchMethod="{x:Null}" LaunchTimeout="{x:Null}" MacroSettings="{x:Null}" ProcessMode="{x:Null}" ShowExcelWindow="{x:Null}" DisplayName="Alcance del proceso de Excel" sap:VirtualizedContainerService.HintSize="353.6,64.8" sap2010:WorkflowViewState.IdRef="ExcelProcessScopeX_1">
       <ueab:ExcelProcessScopeX.Body>
         <ActivityAction x:TypeArguments="ui:IExcelProcess">
           <ActivityAction.Argument>
@@ -401,20 +429,20 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </ueab:ExcelProcessScopeX>
-    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Utilizar Navegador Chrome: OrangeHRM" sap:VirtualizedContainerService.HintSize="625.6,5212" sap2010:WorkflowViewState.IdRef="NApplicationCard_3" InteractionMode="DebuggerApi" OpenMode="IfNotOpen" OutUiElement="[Browser2]" ScopeGuid="cc2bbf7f-0907-4a3b-b4e9-7de67af63450" Version="V2">
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Utilizar Navegador Chrome: OrangeHRM" sap:VirtualizedContainerService.HintSize="353.6,64.8" sap2010:WorkflowViewState.IdRef="NApplicationCard_3" InteractionMode="DebuggerApi" OpenMode="IfNotOpen" OutUiElement="[Browser2]" ScopeGuid="cc2bbf7f-0907-4a3b-b4e9-7de67af63450" Version="V2">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Hacer" sap:VirtualizedContainerService.HintSize="592,4955.2" sap2010:WorkflowViewState.IdRef="Sequence_5">
+          <Sequence DisplayName="Hacer" sap:VirtualizedContainerService.HintSize="1256,5284.8" sap2010:WorkflowViewState.IdRef="Sequence_5">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                <x:Boolean x:Key="IsExpanded">False</x:Boolean>
                 <x:Boolean x:Key="IsPinned">False</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Escribir en 'Username'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="529.6,258.4" sap2010:WorkflowViewState.IdRef="NTypeInto_3" ScopeIdentifier="cc2bbf7f-0907-4a3b-b4e9-7de67af63450" Text="Admin" Version="V3">
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Escribir en 'Username'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="1193.6,258.4" sap2010:WorkflowViewState.IdRef="NTypeInto_3" ScopeIdentifier="cc2bbf7f-0907-4a3b-b4e9-7de67af63450" Text="Admin" Version="V3">
               <uix:NTypeInto.Target>
                 <uix:TargetAnchorable BrowserURL="https://opensource-demo.orangehrmlive.com/web/index.php/auth/login" CvElementArea="470, 617, 612, 61" CvType="InputBox" DesignTimeRectangle="474, 619, 606, 56" DesignTimeScaleFactor="1.25" ElementType="InputBox" FriendlyName="'INPUT'" FullSelectorArgument="&lt;webctrl name='username' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl name='username' tag='INPUT' type='' class='oxd-input oxd-input--focus' aaname='' /&gt;" Guid="26fd57bf-8f31-4bd1-825c-c5e3151060d4" InformativeScreenshot="d6c8748df8c0bfcb9657da133059d207.png" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='OrangeHRM' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive">
                   <uix:TargetAnchorable.Anchors>
@@ -425,7 +453,7 @@
                 </uix:TargetAnchorable>
               </uix:NTypeInto.Target>
             </uix:NTypeInto>
-            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Escribir en 'Password'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="529.6,258.4" sap2010:WorkflowViewState.IdRef="NTypeInto_4" ScopeIdentifier="cc2bbf7f-0907-4a3b-b4e9-7de67af63450" Text="admin123" Version="V3">
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Escribir en 'Password'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="1193.6,258.4" sap2010:WorkflowViewState.IdRef="NTypeInto_4" ScopeIdentifier="cc2bbf7f-0907-4a3b-b4e9-7de67af63450" Text="admin123" Version="V3">
               <uix:NTypeInto.Target>
                 <uix:TargetAnchorable BrowserURL="https://opensource-demo.orangehrmlive.com/web/index.php/auth/login" CvElementArea="471, 724, 611, 62" CvType="InputBox" DesignTimeRectangle="474, 726, 606, 56" DesignTimeScaleFactor="1.25" ElementType="InputBoxPassword" FriendlyName="'INPUT'" FullSelectorArgument="&lt;webctrl tag='INPUT' type='password' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='password' class='oxd-input oxd-input--active' aaname='' /&gt;" Guid="24d50849-2b88-4816-845f-0f94479a4ed4" InformativeScreenshot="03392348d5f03fc9e7c0dfc3a68b30b1.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='OrangeHRM' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive">
                   <uix:TargetAnchorable.Anchors>
@@ -436,7 +464,7 @@
                 </uix:TargetAnchorable>
               </uix:NTypeInto.Target>
             </uix:NTypeInto>
-            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Clic 'Login'" sap:VirtualizedContainerService.HintSize="529.6,197.6" sap2010:WorkflowViewState.IdRef="NClick_9" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="cc2bbf7f-0907-4a3b-b4e9-7de67af63450" Version="V3">
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Clic 'Login'" sap:VirtualizedContainerService.HintSize="1193.6,197.6" sap2010:WorkflowViewState.IdRef="NClick_9" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="cc2bbf7f-0907-4a3b-b4e9-7de67af63450" Version="V3">
               <uix:NClick.Target>
                 <uix:TargetAnchorable BrowserURL="https://opensource-demo.orangehrmlive.com/web/index.php/auth/login" CvElementArea="472, 822, 609, 61" CvTextArea="753, 842, 46, 20" CvTextArgument="Login" CvType="Button" DesignTimeRectangle="474, 823, 606, 58" DesignTimeScaleFactor="1.25" ElementType="Button" FriendlyName="'Login'" FullSelectorArgument="&lt;webctrl tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='BUTTON' type='submit' class='oxd-button oxd-button--medium oxd-button--main orangehrm-login-button' aaname=' Login ' check:innerText='Login' /&gt;" Guid="1bc7752f-d970-46fd-908a-83790748980e" InformativeScreenshot="babb9b46f56fbdc3f614f626d8833697.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='OrangeHRM' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive">
                   <uix:TargetAnchorable.Anchors>
@@ -447,13 +475,42 @@
                 </uix:TargetAnchorable>
               </uix:NClick.Target>
             </uix:NClick>
-            <Delay DisplayName="Retraso" Duration="00:00:05" sap:VirtualizedContainerService.HintSize="529.6,130.4" sap2010:WorkflowViewState.IdRef="Delay_3" />
-            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Clic 'Aceptar'" sap:VirtualizedContainerService.HintSize="529.6,197.6" sap2010:WorkflowViewState.IdRef="NClick_51" InteractionMode="HardwareEvents" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="cc2bbf7f-0907-4a3b-b4e9-7de67af63450" Version="V3">
-              <uix:NClick.Target>
-                <uix:TargetAnchorable CvElementArea="1116, 434, 114, 62" CvTextArea="1143, 458, 60, 17" CvTextArgument="Aceptar" CvType="Button" DesignTimeRectangle="1126, 441, 98, 48" DesignTimeScaleFactor="1.25" ElementType="Button" FriendlyName="'Aceptar'" FullSelectorArgument="&lt;ctrl name='Cambia la contraseña' role='dialog' /&gt;&lt;ctrl name='Aceptar' role='push button' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Cambia la contraseña' role='dialog' /&gt;&lt;ctrl name='Aceptar' role='push button' automationid='' check:fulltext='Aceptar' /&gt;" Guid="11458a9d-ae4a-4441-a7f8-7502e1195ca7" InformativeScreenshot="ea0bb01d7b3fb9af5ebc27d8a3683c36.png" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='OrangeHRM - Google Chrome' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V2" Visibility="Interactive" />
-              </uix:NClick.Target>
-            </uix:NClick>
-            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Clic 'PIM'" sap:VirtualizedContainerService.HintSize="529.6,197.6" sap2010:WorkflowViewState.IdRef="NClick_8" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="cc2bbf7f-0907-4a3b-b4e9-7de67af63450" Version="V3">
+            <Delay DisplayName="Retraso" Duration="00:00:05" sap:VirtualizedContainerService.HintSize="1193.6,130.4" sap2010:WorkflowViewState.IdRef="Delay_3" />
+            <uix:NCheckState DisplayName="Comprobar estado de seguridad" sap:VirtualizedContainerService.HintSize="1193.6,531.2" sap2010:WorkflowViewState.IdRef="NCheckState_9" ScopeIdentifier="cc2bbf7f-0907-4a3b-b4e9-7de67af63450" Version="V3">
+              <uix:NCheckState.IfExists>
+                <Sequence DisplayName="Aparece el destino" sap:VirtualizedContainerService.HintSize="449.6,272.8" sap2010:WorkflowViewState.IdRef="Sequence_62">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Clic 'Aceptar'" sap:VirtualizedContainerService.HintSize="387.2,182.4" sap2010:WorkflowViewState.IdRef="NClick_51" InteractionMode="HardwareEvents" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="cc2bbf7f-0907-4a3b-b4e9-7de67af63450" Version="V3">
+                    <uix:NClick.Target>
+                      <uix:TargetAnchorable CvElementArea="1116, 434, 114, 62" CvTextArea="1143, 458, 60, 17" CvTextArgument="Aceptar" CvType="Button" DesignTimeRectangle="1126, 441, 98, 48" DesignTimeScaleFactor="1.25" ElementType="Button" FriendlyName="'Aceptar'" FullSelectorArgument="&lt;ctrl name='Cambia la contraseña' role='dialog' /&gt;&lt;ctrl name='Aceptar' role='push button' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Cambia la contraseña' role='dialog' /&gt;&lt;ctrl name='Aceptar' role='push button' automationid='' check:fulltext='Aceptar' /&gt;" Guid="11458a9d-ae4a-4441-a7f8-7502e1195ca7" InformativeScreenshot="ea0bb01d7b3fb9af5ebc27d8a3683c36.png" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='OrangeHRM - Google Chrome' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V2" Visibility="Interactive" />
+                    </uix:NClick.Target>
+                  </uix:NClick>
+                </Sequence>
+              </uix:NCheckState.IfExists>
+              <uix:NCheckState.IfNotExists>
+                <Sequence DisplayName="No aparece el destino" sap:VirtualizedContainerService.HintSize="449.6,106.4" sap2010:WorkflowViewState.IdRef="Sequence_63">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                </Sequence>
+              </uix:NCheckState.IfNotExists>
+              <uix:NCheckState.Target>
+                <uix:TargetAnchorable DesignTimeRectangle="1126, 441, 98, 48" DesignTimeScaleFactor="1.25" ElementType="Button" FriendlyName="'Aceptar'" FullSelectorArgument="&lt;ctrl name='Cambia la contraseña' role='dialog' /&gt;&lt;ctrl name='Aceptar' role='push button' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Cambia la contraseña' role='dialog' /&gt;&lt;ctrl name='Aceptar' role='push button' automationid='' check:fulltext='Aceptar' /&gt;" Guid="1b5821d0-728c-42b2-8747-dc4361cda324" ImageBase64="" InformativeScreenshot="5a8294bc48244aa372b98c7694547608.png" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='OrangeHRM - Google Chrome' /&gt;" SearchSteps="Selector" Version="V2" Visibility="Interactive" />
+              </uix:NCheckState.Target>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+            </uix:NCheckState>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Clic 'PIM'" sap:VirtualizedContainerService.HintSize="1193.6,197.6" sap2010:WorkflowViewState.IdRef="NClick_8" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="cc2bbf7f-0907-4a3b-b4e9-7de67af63450" Version="V3">
               <uix:NClick.Target>
                 <uix:TargetAnchorable BrowserURL="https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index" CvTextArea="84, 376, 31, 17" CvTextArgument="PIM" CvType="Text" DesignTimeRectangle="67, 374, 49, 23" DesignTimeScaleFactor="1.25" ElementType="Text" FriendlyName="'PIM'" FullSelectorArgument="&lt;webctrl aaname='PIM' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='PIM' tag='SPAN' type='' class='oxd-text oxd-text--span oxd-main-menu-item--name' check:innerText='PIM' /&gt;" Guid="993d79f6-47d4-418f-ae99-0ddc40ea80ed" InformativeScreenshot="094e12a55f4c6c7689823fb213f68857.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='OrangeHRM' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive">
                   <uix:TargetAnchorable.Anchors>
@@ -464,7 +521,7 @@
                 </uix:TargetAnchorable>
               </uix:NClick.Target>
             </uix:NClick>
-            <Assign DisplayName="Asignar" sap:VirtualizedContainerService.HintSize="529.6,122.4" sap2010:WorkflowViewState.IdRef="Assign_2">
+            <Assign DisplayName="Asignar" sap:VirtualizedContainerService.HintSize="1193.6,121.6" sap2010:WorkflowViewState.IdRef="Assign_2">
               <Assign.To>
                 <OutArgument x:TypeArguments="x:Int32">[singleCounter]</OutArgument>
               </Assign.To>
@@ -472,7 +529,7 @@
                 <InArgument x:TypeArguments="x:Int32">1</InArgument>
               </Assign.Value>
             </Assign>
-            <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[tickets_df]" DisplayName="Para cada fila de la tabla de datos" sap:VirtualizedContainerService.HintSize="529.6,3455.2" sap2010:WorkflowViewState.IdRef="ForEachRow_1">
+            <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[tickets_df]" DisplayName="Para cada fila de la tabla de datos" sap:VirtualizedContainerService.HintSize="1193.6,3455.2" sap2010:WorkflowViewState.IdRef="ForEachRow_1">
               <ui:ForEachRow.Body>
                 <ActivityAction x:TypeArguments="sd:DataRow">
                   <ActivityAction.Argument>
@@ -842,13 +899,13 @@
                         </Sequence>
                       </If.Then>
                       <If.Else>
-                        <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="1060.8,764" sap2010:WorkflowViewState.IdRef="Sequence_56">
+                        <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="1064,1041.6" sap2010:WorkflowViewState.IdRef="Sequence_56">
                           <sap:WorkflowViewStateService.ViewState>
                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
                               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                             </scg:Dictionary>
                           </sap:WorkflowViewStateService.ViewState>
-                          <uix:NCheckState DisplayName="Comprobar estado de aplicación JobTitle" sap:VirtualizedContainerService.HintSize="998.4,677.6" sap2010:WorkflowViewState.IdRef="NCheckState_2" ScopeIdentifier="cc2bbf7f-0907-4a3b-b4e9-7de67af63450" Version="V3">
+                          <uix:NCheckState DisplayName="Comprobar estado de aplicación JobTitle" sap:VirtualizedContainerService.HintSize="1001.6,955.2" sap2010:WorkflowViewState.IdRef="NCheckState_2" ScopeIdentifier="cc2bbf7f-0907-4a3b-b4e9-7de67af63450" Version="V3">
                             <uix:NCheckState.IfExists>
                               <Sequence DisplayName="Aparece el destino" sap:VirtualizedContainerService.HintSize="449.6,272.8" sap2010:WorkflowViewState.IdRef="Sequence_28">
                                 <sap:WorkflowViewStateService.ViewState>
@@ -864,13 +921,13 @@
                               </Sequence>
                             </uix:NCheckState.IfExists>
                             <uix:NCheckState.IfNotExists>
-                              <Sequence DisplayName="No aparece el destino" sap:VirtualizedContainerService.HintSize="496,436" sap2010:WorkflowViewState.IdRef="Sequence_29">
+                              <Sequence DisplayName="No aparece el destino" sap:VirtualizedContainerService.HintSize="499.2,713.6" sap2010:WorkflowViewState.IdRef="Sequence_29">
                                 <sap:WorkflowViewStateService.ViewState>
                                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                   </scg:Dictionary>
                                 </sap:WorkflowViewStateService.ViewState>
-                                <TryCatch DisplayName="Intentar capturar" sap:VirtualizedContainerService.HintSize="433.6,345.6" sap2010:WorkflowViewState.IdRef="TryCatch_6">
+                                <TryCatch DisplayName="Intentar capturar" sap:VirtualizedContainerService.HintSize="436.8,623.2" sap2010:WorkflowViewState.IdRef="TryCatch_6">
                                   <TryCatch.Try>
                                     <uix:NTakeScreenshot DisplayName="Realizar captura de pantalla 'Employee InformationEmp…'" FileName="[&quot;./results/&quot; + singleCounter.ToString() + &quot;_JobTitle_&quot; + JotTitle + &quot;_&quot; + singleDate + &quot;.png&quot;]" FileNameMode="None" sap:VirtualizedContainerService.HintSize="333.6,233.6" sap2010:WorkflowViewState.IdRef="NTakeScreenshot_12" ScopeIdentifier="cc2bbf7f-0907-4a3b-b4e9-7de67af63450" Version="V3">
                                       <uix:NTakeScreenshot.Target>
@@ -882,7 +939,7 @@
                                     <Catch x:TypeArguments="s:Exception" sap:VirtualizedContainerService.HintSize="400,156.8" sap2010:WorkflowViewState.IdRef="Catch`1_6">
                                       <sap:WorkflowViewStateService.ViewState>
                                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
                                           <x:Boolean x:Key="IsPinned">False</x:Boolean>
                                         </scg:Dictionary>
                                       </sap:WorkflowViewStateService.ViewState>
@@ -1193,7 +1250,7 @@
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
             </ui:ForEachRow>
-            <ueab:ExcelProcessScopeX DisplayAlerts="{x:Null}" ExistingProcessAction="{x:Null}" FileConflictResolution="{x:Null}" LaunchMethod="{x:Null}" LaunchTimeout="{x:Null}" MacroSettings="{x:Null}" ProcessMode="{x:Null}" ShowExcelWindow="{x:Null}" DisplayName="Alcance del proceso de Excel" sap:VirtualizedContainerService.HintSize="529.6,49.6" sap2010:WorkflowViewState.IdRef="ExcelProcessScopeX_3">
+            <ueab:ExcelProcessScopeX DisplayAlerts="{x:Null}" ExistingProcessAction="{x:Null}" FileConflictResolution="{x:Null}" LaunchMethod="{x:Null}" LaunchTimeout="{x:Null}" MacroSettings="{x:Null}" ProcessMode="{x:Null}" ShowExcelWindow="{x:Null}" DisplayName="Alcance del proceso de Excel" sap:VirtualizedContainerService.HintSize="1193.6,48" sap2010:WorkflowViewState.IdRef="ExcelProcessScopeX_3">
               <ueab:ExcelProcessScopeX.Body>
                 <ActivityAction x:TypeArguments="ui:IExcelProcess">
                   <ActivityAction.Argument>
@@ -1205,7 +1262,7 @@
                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
-                    <ueab:ExcelApplicationCard Password="{x:Null}" ReadFormatting="{x:Null}" DisplayName="Utilice el archivo de Excel" sap:VirtualizedContainerService.HintSize="529.6,562.4" sap2010:WorkflowViewState.IdRef="ExcelApplicationCard_2" ResizeWindow="None" WorkbookPath="./results/Resultado">
+                    <ueab:ExcelApplicationCard Password="{x:Null}" ReadFormatting="{x:Null}" DisplayName="Utilice el archivo de Excel" sap:VirtualizedContainerService.HintSize="529.6,562.4" sap2010:WorkflowViewState.IdRef="ExcelApplicationCard_2" ResizeWindow="None" WorkbookPath="./results/201800476">
                       <ueab:ExcelApplicationCard.Body>
                         <ActivityAction x:TypeArguments="ue:IWorkbookQuickHandle">
                           <ActivityAction.Argument>
@@ -1240,18 +1297,18 @@
       </uix:NApplicationCard.TargetApp>
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
-          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
           <x:Boolean x:Key="IsPinned">False</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </uix:NApplicationCard>
-    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Utilizar Aplicación/Navegador" sap:VirtualizedContainerService.HintSize="625.6,64.8" sap2010:WorkflowViewState.IdRef="NApplicationCard_4" InUiElement="[Browser1]" OpenMode="Never" ScopeGuid="583bae6d-2ef8-4329-a459-18ecc45cf34d" Version="V2">
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Utilizar Aplicación/Navegador" sap:VirtualizedContainerService.HintSize="353.6,64.8" sap2010:WorkflowViewState.IdRef="NApplicationCard_4" InUiElement="[Browser1]" OpenMode="Never" ScopeGuid="583bae6d-2ef8-4329-a459-18ecc45cf34d" Version="V2">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Hacer" sap:VirtualizedContainerService.HintSize="416,1444.8" sap2010:WorkflowViewState.IdRef="Sequence_41">
+          <Sequence DisplayName="Hacer" sap:VirtualizedContainerService.HintSize="416,2607.2" sap2010:WorkflowViewState.IdRef="Sequence_41">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -1259,21 +1316,15 @@
             </sap:WorkflowViewStateService.ViewState>
             <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Clic 'Resolución'" sap:VirtualizedContainerService.HintSize="353.6,197.6" sap2010:WorkflowViewState.IdRef="NClick_31" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="583bae6d-2ef8-4329-a459-18ecc45cf34d" Version="V3">
               <uix:NClick.Target>
-                <uix:TargetAnchorable BrowserURL="https://desk.zoho.com/agent/usacia1/usacia1/tickets/details/966382000000267128" DesignTimeRectangle="1101, 295, 96, 41" DesignTimeScaleFactor="1.25" ElementType="Text" FriendlyName="'Resolución'" FullSelectorArgument="&lt;webctrl aaname=' Resolución' parentid='react' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname=' Resolución' parentid='react' tag='DIV' type='' class='zd_v2-tab-tabText zd_v24af66c9aeb zd_v2050393fdda zd_v2eb439ba1e6 zd_v2577c9fa95f' check:innerText='RESOLUCIÓN' /&gt;" Guid="55dd5e5d-a446-469d-b308-31212e88f41f" InformativeScreenshot="31e25a603435c3d59e02b009f812f4a8.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='(6) #106 - usacia1' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive">
-                  <uix:TargetAnchorable.Anchors>
-                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
-                      <uix:Target DesignTimeRectangle="1239, 295, 149, 41" ElementType="Text" FriendlyName="'Entrada de tiempo'" FullSelectorArgument="&lt;webctrl aaname=' Entrada de tiempo' parentid='react' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname=' Entrada de tiempo' parentid='react' tag='DIV' type='' class='zd_v2-tab-tabText zd_v24af66c9aeb zd_v2050393fdda zd_v2eb439ba1e6 zd_v2577c9fa95f' check:innerText='ENTRADA DE TIEMPO' /&gt;" ImageBase64="" SearchSteps="Selector, FuzzySelector" />
-                    </scg:List>
-                  </uix:TargetAnchorable.Anchors>
-                </uix:TargetAnchorable>
+                <uix:TargetAnchorable BrowserURL="https://desk.zoho.com/agent/usacia1/usacia1/tickets/details/966382000000323001/conversation" DesignTimeRectangle="1101, 295, 96, 41" DesignTimeScaleFactor="1.25" ElementType="Text" FriendlyName="'Resolución'" FullSelectorArgument="&lt;webctrl aaname=' Resolución' parentid='react' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname=' Resolución' parentid='react' tag='DIV' type='' class='zd_v2-tab-tabText zd_v24af66c9aeb zd_v2050393fdda zd_v2eb439ba1e6 zd_v2577c9fa95f' check:innerText='RESOLUCIÓN' /&gt;" Guid="fecb0352-00ac-486d-9363-02affd515efa" ImageBase64="" InformativeScreenshot="77c46f95f3d114fb7d9a0d616e563f40.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='#110 - usacia1' /&gt;" SearchSteps="Selector" Version="V2" Visibility="Interactive" />
               </uix:NClick.Target>
             </uix:NClick>
             <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Escribir en 'Resolución'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="353.6,258.4" sap2010:WorkflowViewState.IdRef="NTypeInto_11" InteractionMode="DebuggerApi" ScopeIdentifier="583bae6d-2ef8-4329-a459-18ecc45cf34d" Text="Se finalizó el proceso de validación de usuarios, favor de validar" Version="V3">
               <uix:NTypeInto.Target>
-                <uix:TargetAnchorable BrowserURL="https://desk.zoho.com/agent/usacia1/usacia1/tickets/details/966382000000267128/resolution" DesignTimeRectangle="961, 366, 931, 165" DesignTimeScaleFactor="1.25" ElementType="InputBox" FriendlyName="'TEXTAREA'" FullSelectorArgument="&lt;webctrl tag='TEXTAREA' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='TEXTAREA' type='' class='zd_v2-resolutionform-textArea zd_v2-textarea-container zd_v2-textarea-basic zd_v2-textarea-varClass zd_v2-textarea-medium zd_v2-textarea-default zd_v2-textarea-noBorder zd_v2-textarea-noresize zd_v27d162e417f zd_v2-textarea-effect zd_v2-textarea-borderColor_default' aaname='' /&gt;" Guid="227111a7-280e-4475-9bf6-f1a073636291" InformativeScreenshot="7b4e9ce21663db8018af5a09febd552e.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='(6) #106 - usacia1' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive">
+                <uix:TargetAnchorable BrowserURL="https://desk.zoho.com/agent/usacia1/usacia1/tickets/details/966382000000323001/resolution" DesignTimeRectangle="961, 366, 931, 165" DesignTimeScaleFactor="1.25" ElementType="InputBox" FriendlyName="'TEXTAREA'" FullSelectorArgument="&lt;webctrl tag='TEXTAREA' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='TEXTAREA' type='' class='zd_v2-resolutionform-textArea zd_v2-textarea-container zd_v2-textarea-basic zd_v2-textarea-varClass zd_v2-textarea-medium zd_v2-textarea-default zd_v2-textarea-noBorder zd_v2-textarea-noresize zd_v27d162e417f zd_v2-textarea-effect zd_v2-textarea-borderColor_default' aaname='' /&gt;" Guid="e90336fe-131e-4026-b9a4-97f89475af3d" ImageBase64="" InformativeScreenshot="133f320f910e480cec1f30dccaa3ff39.png" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='#110 - usacia1' /&gt;" SearchSteps="Selector" Version="V2" Visibility="Interactive">
                   <uix:TargetAnchorable.Anchors>
-                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
-                      <uix:Target DesignTimeRectangle="905, 366, 38, 165" FriendlyName="'ME'" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;desk&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;section&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;main&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div' idx='5' parentid='react' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' class='zd_v2-subtabeditorbox-avatarWrapper' parentid='react' tag='DIV' aaname='' check:innerText='ME' /&gt;" ImageBase64="" SearchSteps="Selector, FuzzySelector" />
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target DesignTimeRectangle="913, 376, 22, 17" ElementType="Text" FriendlyName="'ME'" FullSelectorArgument="&lt;webctrl aaname='ME' css-selector='body&amp;gt;div&amp;gt;desk&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;section&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;main&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;span' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='ME' type='' tag='SPAN' class='zd_v2-avatar-initial' check:innerText='ME' /&gt;" SearchSteps="FuzzySelector" />
                     </scg:List>
                   </uix:TargetAnchorable.Anchors>
                 </uix:TargetAnchorable>
@@ -1292,36 +1343,65 @@
             </uix:NClick>
             <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Clic 'Adjunto'" sap:VirtualizedContainerService.HintSize="353.6,197.6" sap2010:WorkflowViewState.IdRef="NClick_33" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="583bae6d-2ef8-4329-a459-18ecc45cf34d" Version="V3">
               <uix:NClick.Target>
-                <uix:TargetAnchorable BrowserURL="https://desk.zoho.com/agent/usacia1/usacia1/tickets/details/966382000000277001/resolution" DesignTimeRectangle="1431, 295, 67, 41" DesignTimeScaleFactor="1.25" ElementType="Text" FriendlyName="'Adjunto'" FullSelectorArgument="&lt;webctrl aaname=' Adjunto' parentid='react' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname=' Adjunto' parentid='react' tag='DIV' type='' class='zd_v2-tab-tabText zd_v24af66c9aeb zd_v2050393fdda zd_v2eb439ba1e6 zd_v2577c9fa95f' check:innerText='ADJUNTO' /&gt;" Guid="683208ac-5faf-4a4b-b638-7902ccb1d8f4" InformativeScreenshot="7dbae5a363707947d1afaa881ab75baa.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='#105 - usacia1' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive">
+                <uix:TargetAnchorable BrowserURL="https://desk.zoho.com/agent/usacia1/usacia1/tickets/details/966382000000323001/resolution" DesignTimeRectangle="1431, 295, 67, 41" DesignTimeScaleFactor="1.25" ElementType="Text" FriendlyName="'Adjunto'" FullSelectorArgument="&lt;webctrl aaname=' Adjunto' parentid='react' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname=' Adjunto' parentid='react' tag='DIV' type='' class='zd_v2-tab-tabText zd_v24af66c9aeb zd_v2050393fdda zd_v2eb439ba1e6 zd_v2577c9fa95f' check:innerText='ADJUNTO' /&gt;" Guid="8a4cebba-67c8-4af5-a53d-869f7678e977" ImageBase64="" InformativeScreenshot="7e1e2ecdda4a99320e24cb706c207961.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='#110 - usacia1' /&gt;" SearchSteps="Selector" Version="V2" Visibility="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Clic 'Buscar archivos'" sap:VirtualizedContainerService.HintSize="353.6,197.6" sap2010:WorkflowViewState.IdRef="NClick_56" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="583bae6d-2ef8-4329-a459-18ecc45cf34d" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://desk.zoho.com/agent/usacia1/usacia1/tickets/details/966382000000323001/attachments" DesignTimeRectangle="1422, 808, 166, 36" DesignTimeScaleFactor="1.25" ElementType="Button" FriendlyName="'Buscar archivos'" FullSelectorArgument="&lt;webctrl aaname='Buscar archivos' tag='BUTTON' type='button' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Buscar archivos' tag='BUTTON' type='button' class='zd_button_tag zd_v2-button-bold zd_v2266b1e491d zd_v2-button-primaryfilled zd_v2-button-medium zd_v2-button-container zd_v2-button-native zd_v2-button-varClass zd_v24af66c9aeb' check:innerText='Buscar Archivos' /&gt;" Guid="403335e7-0b46-466f-bc45-d8cf7473f2d6" ImageBase64="" InformativeScreenshot="006f6b4f8199e39cbbfe1a05baa1a941.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='#110 - usacia1' /&gt;" SearchSteps="Selector" Version="V2" Visibility="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Clic 'Ubicaciones anteriores'" sap:VirtualizedContainerService.HintSize="353.6,197.6" sap2010:WorkflowViewState.IdRef="NClick_68" InteractionMode="HardwareEvents" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="583bae6d-2ef8-4329-a459-18ecc45cf34d" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable DesignTimeRectangle="579, 48, 47, 47" DesignTimeScaleFactor="1.25" ElementType="Button" FriendlyName="'Ubicaciones anteriores'" FullSelectorArgument="&lt;wnd aaname='Cargando' cls='msctls_progress32' /&gt;&lt;wnd cls='ToolbarWindow32' title='Banda de direcciones' /&gt;&lt;ctrl name='Banda de direcciones' role='tool bar' /&gt;&lt;ctrl name='Ubicaciones anteriores' role='push button' /&gt;" FuzzySelectorArgument="&lt;wnd aaname='Cargando' cls='msctls_progress32' /&gt;&lt;wnd cls='ToolbarWindow32' title='Banda de direcciones' /&gt;&lt;ctrl name='Banda de direcciones' role='tool bar' /&gt;&lt;ctrl name='Ubicaciones anteriores' role='push button' automationid='' check:text='Ubicaciones anteriores' /&gt;" Guid="5631e2e1-832e-450b-b9bf-5613b2c22145" ImageBase64="" InformativeScreenshot="66d2e9f849d1e38487806228c53402bc.png" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='#32770' title='Guardar como' /&gt;" SearchSteps="Selector" Version="V2" Visibility="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Escribir en 'C:\Users\alexm\Download…'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="353.6,258.4" sap2010:WorkflowViewState.IdRef="NTypeInto_19" InteractionMode="HardwareEvents" ScopeIdentifier="583bae6d-2ef8-4329-a459-18ecc45cf34d" Text="C:\Users\alexm\Downloads\ALEXIS\Repositories\IA1_Proyecto1_201800476\results" Version="V3">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable CvElementArea="181, 50, 405, 36" CvType="InputBox" DesignTimeRectangle="210, 59, 371, 20" DesignTimeScaleFactor="1.25" ElementType="InputBox" FriendlyName="'C:\Users\alexm\Download…'" FullSelectorArgument="&lt;wnd aaname='Cargando' cls='msctls_progress32' /&gt;&lt;wnd ctrlid='41477' /&gt;&lt;wnd ctrlid='41477' /&gt;" FuzzySelectorArgument="&lt;wnd aaname='Cargando' cls='msctls_progress32' /&gt;&lt;wnd ctrlid='41477' /&gt;&lt;wnd ctrlid='41477' /&gt;" Guid="f0d0dbfa-f2d4-49cb-950d-c2080558f4e2" InformativeScreenshot="7ff18ec6b1e83343048499d98244ff23.png" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='#32770' title='Guardar como' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V2" Visibility="Interactive">
                   <uix:TargetAnchorable.Anchors>
                     <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
-                      <uix:Target DesignTimeRectangle="1239, 295, 149, 41" ElementType="Text" FriendlyName="'Entrada de tiempo'" FullSelectorArgument="&lt;webctrl aaname=' Entrada de tiempo' parentid='react' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname=' Entrada de tiempo' parentid='react' tag='DIV' type='' class='zd_v2-tab-tabText zd_v24af66c9aeb zd_v2050393fdda zd_v2eb439ba1e6 zd_v2577c9fa95f' check:innerText='ENTRADA DE TIEMPO' /&gt;" ImageBase64="" SearchSteps="Selector, FuzzySelector" />
+                      <uix:Target CvElementArea="181, 50, 405, 36" CvType="InputBox" DesignTimeRectangle="182, 48, 444, 42" ElementType="InputBox" FriendlyName="'C:\Users\alexm\Download…'" FullSelectorArgument="&lt;wnd aaname='Cargando' cls='msctls_progress32' /&gt;&lt;wnd ctrlid='41477' /&gt;&lt;wnd ctrlid='41477' /&gt;" FuzzySelectorArgument="&lt;wnd aaname='Cargando' cls='msctls_progress32' /&gt;&lt;wnd ctrlid='41477' /&gt;&lt;wnd ctrlid='41477' /&gt;" SearchSteps="Selector, FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+            <uix:NClick ActivateBefore="True" ClickType="Double" DisplayName="Clic 'Banda de direcciones'" sap:VirtualizedContainerService.HintSize="353.6,197.6" sap2010:WorkflowViewState.IdRef="NClick_59" InteractionMode="HardwareEvents" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="583bae6d-2ef8-4329-a459-18ecc45cf34d" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable DesignTimeRectangle="626, 48, 47, 44" DesignTimeScaleFactor="1.25" ElementType="Toolbar" FriendlyName="'Banda de direcciones'" FullSelectorArgument="&lt;wnd aaname='Cargando' cls='msctls_progress32' /&gt;&lt;wnd cls='ToolbarWindow32' title='Banda de direcciones' /&gt;" FuzzySelectorArgument="&lt;wnd aaname='Cargando' cls='msctls_progress32' /&gt;&lt;wnd cls='ToolbarWindow32' title='Banda de direcciones' check:text='Banda de direcciones' /&gt;" Guid="193cc78b-f528-4040-8eb7-d5e87b5617b8" InformativeScreenshot="4b9fda3c968764c997c165ce269f61bb.png" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='#32770' title='Guardar como' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V2" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CvElementArea="592, 57, 23, 23" CvType="ArrowButton" DesignTimeRectangle="585, 49, 40, 40" ElementType="Button" FriendlyName="'C:\Users\alexm\Download…'" FullSelectorArgument="&lt;wnd aaname='Cargando' cls='msctls_progress32' /&gt;&lt;wnd ctrlid='41477' /&gt;&lt;ctrl name='Dirección' role='combo box' /&gt;&lt;ctrl name='Dirección' role='push button' /&gt;" FuzzySelectorArgument="&lt;wnd aaname='Cargando' cls='msctls_progress32' /&gt;&lt;wnd ctrlid='41477' /&gt;&lt;ctrl name='Dirección' role='combo box' /&gt;&lt;ctrl name='Dirección' role='push button' automationid='' check:text='C:\Users\alexm\Downloads\ALEXIS\Repositories\IA1_Proyecto1_201800476\files' /&gt;" SearchSteps="Selector, FuzzySelector, CV" />
                     </scg:List>
                   </uix:TargetAnchorable.Anchors>
                 </uix:TargetAnchorable>
               </uix:NClick.Target>
             </uix:NClick>
-            <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Bandeja de mensajes" sap:VirtualizedContainerService.HintSize="353.6,125.6" sap2010:WorkflowViewState.IdRef="MessageBox_11" Text="[&quot;Se adjuntan archivos&quot;]" />
-            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Clic '1 Conversación'" sap:VirtualizedContainerService.HintSize="353.6,197.6" sap2010:WorkflowViewState.IdRef="NClick_34" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="583bae6d-2ef8-4329-a459-18ecc45cf34d" Version="V3">
+            <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Atajos del teclado 'DirectUIHWND'" sap:VirtualizedContainerService.HintSize="353.6,239.2" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_1" ScopeIdentifier="583bae6d-2ef8-4329-a459-18ecc45cf34d" Shortcuts="[d(hk)][d(ctrl)]a[u(ctrl)][u(hk)]" Version="V3">
+              <uix:NKeyboardShortcuts.Target>
+                <uix:TargetAnchorable DesignTimeRectangle="209, 142, 742, 350" DesignTimeScaleFactor="1.25" ElementType="List" FriendlyName="'DirectUIHWND'" FullSelectorArgument="&lt;wnd aaname='Panel del explorador' cls='DirectUIHWND' /&gt;&lt;wnd ctrlid='1121' title='ShellView' /&gt;&lt;wnd aaname='Vista Elementos' cls='DirectUIHWND' /&gt;" FuzzySelectorArgument="&lt;wnd aaname='Panel del explorador' cls='DirectUIHWND' /&gt;&lt;wnd ctrlid='1121' title='ShellView' /&gt;&lt;wnd aaname='Vista Elementos' cls='DirectUIHWND' /&gt;" Guid="17ec597e-228c-4159-bb50-6e49a7a6de27" ImageBase64="" InformativeScreenshot="3a00d3092b3a2b2bde92282ec20ac02c.png" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='#32770' title='Abrir' /&gt;" SearchSteps="Selector" Version="V2" Visibility="Interactive" />
+              </uix:NKeyboardShortcuts.Target>
+            </uix:NKeyboardShortcuts>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Clic 'unchecked'" sap:VirtualizedContainerService.HintSize="353.6,197.6" sap2010:WorkflowViewState.IdRef="NClick_58" InteractionMode="HardwareEvents" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="583bae6d-2ef8-4329-a459-18ecc45cf34d" Version="V3">
               <uix:NClick.Target>
-                <uix:TargetAnchorable BrowserURL="https://desk.zoho.com/agent/usacia1/usacia1/tickets/details/966382000000277001/attachments" DesignTimeRectangle="905, 295, 128, 41" DesignTimeScaleFactor="1.25" ElementType="Text" FriendlyName="'1 Conversación'" FullSelectorArgument="&lt;webctrl aaname='1 Conversación' parentid='react' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='1 Conversación' parentid='react' tag='DIV' type='' class='zd_v2-tab-tabText zd_v24af66c9aeb zd_v2050393fdda zd_v2eb439ba1e6 zd_v2577c9fa95f' check:innerText='1 CONVERSACIÓN' /&gt;" Guid="d76cb504-7048-4a07-b823-372416cbb2f2" InformativeScreenshot="4a833395ec0735e4b2e0737bdeb401bf.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='#105 - usacia1' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive">
+                <uix:TargetAnchorable DesignTimeRectangle="696, 544, 110, 33" DesignTimeScaleFactor="1.25" ElementType="Button" FriendlyName="'unchecked'" FullSelectorArgument="&lt;wnd ctrlid='1' title='&amp;amp;Abrir' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlid='1' title='&amp;amp;Abrir' check:text='unchecked' /&gt;" Guid="94df957f-faf8-4acf-9372-626fc568629a" InformativeScreenshot="02f117a9f870705481cea03bc3ea5883.png" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='#32770' title='Abrir' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V2" Visibility="Interactive">
                   <uix:TargetAnchorable.Anchors>
-                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
-                      <uix:Target DesignTimeRectangle="1101, 295, 96, 41" ElementType="Text" FriendlyName="'Resolución'" FullSelectorArgument="&lt;webctrl aaname=' Resolución' parentid='react' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname=' Resolución' parentid='react' tag='DIV' type='' class='zd_v2-tab-tabText zd_v24af66c9aeb zd_v2050393fdda zd_v2eb439ba1e6 zd_v2577c9fa95f' check:innerText='RESOLUCIÓN' /&gt;" ImageBase64="" SearchSteps="Selector, FuzzySelector" />
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target DesignTimeRectangle="821, 544, 110, 33" ElementType="Button" FriendlyName="'Cancelar'" FullSelectorArgument="&lt;wnd ctrlid='2' title='Cancelar' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlid='2' title='Cancelar' check:text='Cancelar' /&gt;" SearchSteps="Selector, FuzzySelector" />
                     </scg:List>
                   </uix:TargetAnchorable.Anchors>
                 </uix:TargetAnchorable>
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Clic '1 Conversación'" sap:VirtualizedContainerService.HintSize="353.6,197.6" sap2010:WorkflowViewState.IdRef="NClick_34" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="583bae6d-2ef8-4329-a459-18ecc45cf34d" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://desk.zoho.com/agent/usacia1/usacia1/tickets/details/966382000000323001/attachments" DesignTimeRectangle="905, 295, 128, 41" DesignTimeScaleFactor="1.25" ElementType="Text" FriendlyName="'1 Conversación'" FullSelectorArgument="&lt;webctrl aaname='1 Conversación' parentid='react' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='1 Conversación' parentid='react' tag='DIV' type='' class='zd_v2-tab-tabText zd_v24af66c9aeb zd_v2050393fdda zd_v2eb439ba1e6 zd_v2577c9fa95f' check:innerText='1 CONVERSACIÓN' /&gt;" Guid="9a80e319-e40d-4b3b-9fe9-95bff3068990" ImageBase64="" InformativeScreenshot="b2ecbaa3dabc4ee934380c113ebaeb8e.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='#110 - usacia1' /&gt;" SearchSteps="Selector" Version="V2" Visibility="Interactive" />
               </uix:NClick.Target>
             </uix:NClick>
             <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Clic 'Cerrar Ticket'" sap:VirtualizedContainerService.HintSize="353.6,182.4" sap2010:WorkflowViewState.IdRef="NClick_35" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="583bae6d-2ef8-4329-a459-18ecc45cf34d" Version="V3">
               <uix:NClick.Target>
-                <uix:TargetAnchorable BrowserURL="https://desk.zoho.com/agent/usacia1/usacia1/tickets/details/966382000000277001/conversation" DesignTimeRectangle="1751, 1003, 141, 36" DesignTimeScaleFactor="1.25" ElementType="Button" FriendlyName="'Cerrar Ticket'" FullSelectorArgument="&lt;webctrl aaname='Cerrar Ticket' tag='BUTTON' type='button' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Cerrar Ticket' tag='BUTTON' type='button' class='zd_button_tag zd_v2-ticketclosebutton-btnTxt zd_v2-button-bold zd_v2266b1e491d zd_v2-button-primary zd_v2-button-medium zd_v2-button-container zd_v2-button-native zd_v2-button-varClass zd_v24af66c9aeb' check:innerText='Cerrar Ticket' /&gt;" Guid="f61e1fbc-cdff-4b78-b42f-1f5c4f6c8570" ImageBase64="" InformativeScreenshot="4594d1d42ee2317f03e4fb7d46244438.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='#105 - usacia1' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V2" Visibility="Interactive">
-                  <uix:TargetAnchorable.Anchors>
-                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
-                      <uix:Target DesignTimeRectangle="862, 1003, 705, 36" FriendlyName="'Aplicar macroAsistencia'" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;desk&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;section&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;main&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div' idx='7' parentid='react' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' class='zd_v2ff266bc91b zd_v273a3ca0b12 zd_v2fd3b1bbb3b zd_v2bd11ce84cf' parentid='react' tag='DIV' aaname='' check:innerText='Aplicar macro&amp;#xD;&amp;#xA;Asistencia remota' /&gt;" ImageBase64="" SearchSteps="Selector, FuzzySelector" />
-                    </scg:List>
-                  </uix:TargetAnchorable.Anchors>
-                </uix:TargetAnchorable>
+                <uix:TargetAnchorable BrowserURL="https://desk.zoho.com/agent/usacia1/usacia1/tickets/details/966382000000323001/conversation" DesignTimeRectangle="1751, 1003, 141, 36" DesignTimeScaleFactor="1.25" ElementType="Button" FriendlyName="'Cerrar Ticket'" FullSelectorArgument="&lt;webctrl aaname='Cerrar Ticket' tag='BUTTON' type='button' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Cerrar Ticket' tag='BUTTON' type='button' class='zd_button_tag zd_v2-ticketclosebutton-btnTxt zd_v2-button-bold zd_v2266b1e491d zd_v2-button-primary zd_v2-button-medium zd_v2-button-container zd_v2-button-native zd_v2-button-varClass zd_v24af66c9aeb' check:innerText='Cerrar Ticket' /&gt;" Guid="f30806be-1c0e-4e95-b2b3-708de9eb1e8f" ImageBase64="" InformativeScreenshot="e2079c94154ba98470515678414d7bc8.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='#110 - usacia1' /&gt;" SearchSteps="Selector" Version="V2" Visibility="Interactive" />
               </uix:NClick.Target>
             </uix:NClick>
           </Sequence>
@@ -1337,62 +1417,119 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </uix:NApplicationCard>
-    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Utilizar Navegador Chrome: Gmail" sap:VirtualizedContainerService.HintSize="625.6,48" sap2010:WorkflowViewState.IdRef="NApplicationCard_6" InteractionMode="DebuggerApi" OpenMode="IfNotOpen" OutUiElement="[Browser1]" ScopeGuid="1c323c33-3649-4aa5-b9ec-ae67e2169da9" Version="V2">
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Utilizar Navegador Chrome: Gmail" sap:VirtualizedContainerService.HintSize="353.6,48" sap2010:WorkflowViewState.IdRef="NApplicationCard_6" InteractionMode="DebuggerApi" OpenMode="IfNotOpen" ScopeGuid="1c323c33-3649-4aa5-b9ec-ae67e2169da9" Version="V2">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Hacer" sap:VirtualizedContainerService.HintSize="416,1376.8" sap2010:WorkflowViewState.IdRef="Sequence_46">
+          <Sequence DisplayName="Hacer" sap:VirtualizedContainerService.HintSize="416,3660" sap2010:WorkflowViewState.IdRef="Sequence_46">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                <x:Boolean x:Key="IsPinned">False</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Escribir en 'Para'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="353.6,258.4" sap2010:WorkflowViewState.IdRef="NTypeInto_14" ScopeIdentifier="1c323c33-3649-4aa5-b9ec-ae67e2169da9" Text="gameralexis12@gmail.com" Version="V3">
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Escribir en 'INPUT identifierId'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="353.6,258.4" sap2010:WorkflowViewState.IdRef="NTypeInto_20" ScopeIdentifier="1c323c33-3649-4aa5-b9ec-ae67e2169da9" Text="3007201810101@ingenieria.usac.edu.gt" Version="V3">
               <uix:NTypeInto.Target>
-                <uix:TargetAnchorable BrowserURL="https://mail.google.com/mail/u/1/#inbox?compose=new" DesignTimeRectangle="1321, 513, 479, 36" DesignTimeScaleFactor="1" ElementType="InputBox" FriendlyName="'INPUT :1xk'" FullSelectorArgument="&lt;webctrl parentid=':m8' tableRow='1' tag='TABLE' /&gt;&lt;webctrl tableRow='1' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid=':m8' tag='TABLE' /&gt;&lt;webctrl type='text' tag='INPUT' class='agP aFw' aaname='' /&gt;" Guid="3a8bc0d6-e596-4eae-a12d-f9a47cfd7504" InformativeScreenshot="79f70e33db7f66eae8b0c0d751e7dbf6.png" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Recibidos (799) - 3007201810101@ingenieria.usac.edu.gt - Correo de Facultad de Ingeniería, USAC' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive">
+                <uix:TargetAnchorable BrowserURL="https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F&amp;emr=1&amp;followup=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F&amp;ifkv=ARZ0qKJ7Lfe5_Vd7PKMhyJXFF2otPdlfsDs_jBFsLwyIXE8pd0zMARkC9pJ-xAgfmPGtyw3G-ERdJg&amp;osid=1&amp;passive=1209600&amp;service=mail&amp;flowName=GlifWebSignIn&amp;flowEntry=ServiceLogin&amp;dsh=S-234168958%3A1711500163755267&amp;theme=mn&amp;ddm=0" DesignTimeRectangle="1000, 528, 633, 68" DesignTimeScaleFactor="1.25" ElementType="InputBox" FriendlyName="'INPUT identifierId'" FullSelectorArgument="&lt;webctrl id='identifierId' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='identifierId' tag='INPUT' type='email' class='whsOnd zHQkBf' aaname='' /&gt;" Guid="48c78e4b-d526-43d3-8236-1a6e5389b422" ImageBase64="" InformativeScreenshot="562ec1f7ed95881a1b2d94374ed1a4a2.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Gmail' /&gt;" SearchSteps="Selector" Version="V2" Visibility="Interactive" />
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Clic 'DIV'" sap:VirtualizedContainerService.HintSize="353.6,197.6" sap2010:WorkflowViewState.IdRef="NClick_42" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="1c323c33-3649-4aa5-b9ec-ae67e2169da9" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F&amp;emr=1&amp;followup=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F&amp;ifkv=ARZ0qKJ7Lfe5_Vd7PKMhyJXFF2otPdlfsDs_jBFsLwyIXE8pd0zMARkC9pJ-xAgfmPGtyw3G-ERdJg&amp;osid=1&amp;passive=1209600&amp;service=mail&amp;flowName=GlifWebSignIn&amp;flowEntry=ServiceLogin&amp;dsh=S-234168958%3A1711500163755267&amp;theme=mn&amp;ddm=0" DesignTimeRectangle="1497, 785, 137, 60" DesignTimeScaleFactor="1.25" FriendlyName="'DIV'" FullSelectorArgument="&lt;webctrl class='VfPpkd-RLmnJb' parentid='identifierNext' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl class='VfPpkd-RLmnJb' parentid='identifierNext' tag='DIV' type='' aaname='' /&gt;" Guid="cc03ce43-f0ad-414e-b6a9-5d271fd6a9db" ImageBase64="" InformativeScreenshot="0ba3ed49ceb511020c4ac28b1aa7d52b.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Gmail' /&gt;" SearchSteps="Selector" Version="V2" Visibility="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Escribir en 'Usuario'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="353.6,258.4" sap2010:WorkflowViewState.IdRef="NTypeInto_14" ScopeIdentifier="1c323c33-3649-4aa5-b9ec-ae67e2169da9" Text="201800476" Version="V3">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="https://auth.ingenieria.usac.edu.gt/auth/realms/fiusac-general/protocol/saml/clients/googleapps?SAMLRequest=jZJPT%2BMwEMXvSHwHy%2Ff8aWG1yGqCCghtJRYiGvbAzXGmiZHjyXrsFr49bgqCPYD2%2Bjwz7%2FfGszh%2FHgzbgiONtuCzNOcMrMJW267gD%2FV1csbPy%2BOjBcnBjGIZfG%2Fv4W8A8ix2WhLTQ8GDswIlaRJWDkDCK7Fe%2Fr4R8zQXo0OPCg1nq6uCI2o19M3YaGwkPgGqJ4RN3w59h8Y2epRj28LYcfbnHWu%2Bx1oRBVhZ8tL6KOXz0yQ%2FSeY%2F6zwXpz9EfvbIWfXmdKHtIcF3WM2hiMSvuq6S6m5dTwO2ugV3G6sL3iF2BlKFw96%2BkkR6G%2BWNNAScLYnA%2BQh4iZbCAG4NbqsVPNzfFLz3fiSRZbvdLv0Yk8ksOoLV4LRMA0mVQhvSzmdSES%2BnLYspqPu03u9jyHcMXv6H0SL75FG%2Bfes%2B7eqqQqPVC1sag7tLB9LHqN6FmPQa3SD91xizdDYpuk02U6kIlkZQeqOh5SwrD67%2F3k%2B8qlc%3D&amp;RelayState=https%3A%2F%2Faccounts.google.com%2FCheckCookie%3Fcontinue%3Dhttps%253A%252F%252Fmail.google.com%252Fmail%252Fu%252F0%252F%26service%3Dmail%26checkedDomains%3Dyoutube%26checkConnection%3Dyoutube%253A174%26pstMsg%3D1%26osid%3D1%26flowName%3DGlifWebSignIn%26ifkv%3DARZ0qKJ7Lfe5_Vd7PKMhyJXFF2otPdlfsDs_jBFsLwyIXE8pd0zMARkC9pJ-xAgfmPGtyw3G-ERdJg%26theme%3Dmn" DesignTimeRectangle="707, 607, 525, 45" DesignTimeScaleFactor="1.25" ElementType="InputBox" FriendlyName="'INPUT username'" FullSelectorArgument="&lt;webctrl id='username' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='username' tag='INPUT' type='text' class='pf-c-form-control' aaname='Usuario' /&gt;" Guid="4ca22688-3aca-4ff3-bf52-facba7a533e7" ImageBase64="" InformativeScreenshot="5979f37a53fd8f45be096ec26a238ecb.png" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Inicia sesión en Facultad de Ingeniería' /&gt;" SearchSteps="Selector" Version="V2" Visibility="Interactive">
                   <uix:TargetAnchorable.Anchors>
-                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
-                      <uix:Target DesignTimeRectangle="1284, 522, 29, 18" ElementType="Text" FriendlyName="'Para'" FullSelectorArgument="&lt;webctrl parentid=':m8' tableRow='1' tag='TABLE' /&gt;&lt;webctrl tableRow='1' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid=':m8' tag='TABLE' /&gt;&lt;webctrl type='' tag='SPAN' class='gO aQY' aaname='Para' check:innerText='Para' /&gt;" ImageBase64="" SearchSteps="Selector, FuzzySelector" />
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target DesignTimeRectangle="707, 582, 55, 25" ElementType="Text" FriendlyName="'Usuario'" FullSelectorArgument="&lt;webctrl tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='LABEL' type='' class='pf-c-form__label pf-c-form__label-text' aaname='Usuario' check:innerText='Usuario' /&gt;" SearchSteps="FuzzySelector" />
                     </scg:List>
                   </uix:TargetAnchorable.Anchors>
                 </uix:TargetAnchorable>
               </uix:NTypeInto.Target>
             </uix:NTypeInto>
-            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Escribir en 'Cco'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="353.6,258.4" sap2010:WorkflowViewState.IdRef="NTypeInto_15" ScopeIdentifier="1c323c33-3649-4aa5-b9ec-ae67e2169da9" Text="201800476" Version="V3">
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Escribir en 'Contraseña'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="353.6,258.4" sap2010:WorkflowViewState.IdRef="NTypeInto_22" IsPassword="True" ScopeIdentifier="1c323c33-3649-4aa5-b9ec-ae67e2169da9" Text="Nintendowii" Version="V3">
               <uix:NTypeInto.Target>
-                <uix:TargetAnchorable BrowserURL="https://mail.google.com/mail/u/1/#inbox?compose=new" DesignTimeRectangle="1284, 561, 568, 20" DesignTimeScaleFactor="1" ElementType="InputBox" FriendlyName="'INPUT :1ty'" FullSelectorArgument="&lt;webctrl id=':oe' tag='TABLE' /&gt;&lt;webctrl aria-label='Asunto' tableRow='1' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id=':oe' tag='TABLE' /&gt;&lt;webctrl aria-label='Asunto' type='' tag='INPUT' class='aoT' aaname='' /&gt;" Guid="d927adff-9495-4e57-996d-be962996e040" ImageBase64="" InformativeScreenshot="642b262c04e012ee6a7a0554d397a5aa.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Recibidos (799) - 3007201810101@ingenieria.usac.edu.gt - Correo de Facultad de Ingeniería, USAC' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V2" Visibility="Interactive">
+                <uix:TargetAnchorable BrowserURL="https://auth.ingenieria.usac.edu.gt/auth/realms/fiusac-general/protocol/saml/clients/googleapps?SAMLRequest=jZJPT%2BMwEMXvSHwHy%2Ff8aWG1yGqCCghtJRYiGvbAzXGmiZHjyXrsFr49bgqCPYD2%2Bjwz7%2FfGszh%2FHgzbgiONtuCzNOcMrMJW267gD%2FV1csbPy%2BOjBcnBjGIZfG%2Fv4W8A8ix2WhLTQ8GDswIlaRJWDkDCK7Fe%2Fr4R8zQXo0OPCg1nq6uCI2o19M3YaGwkPgGqJ4RN3w59h8Y2epRj28LYcfbnHWu%2Bx1oRBVhZ8tL6KOXz0yQ%2FSeY%2F6zwXpz9EfvbIWfXmdKHtIcF3WM2hiMSvuq6S6m5dTwO2ugV3G6sL3iF2BlKFw96%2BkkR6G%2BWNNAScLYnA%2BQh4iZbCAG4NbqsVPNzfFLz3fiSRZbvdLv0Yk8ksOoLV4LRMA0mVQhvSzmdSES%2BnLYspqPu03u9jyHcMXv6H0SL75FG%2Bfes%2B7eqqQqPVC1sag7tLB9LHqN6FmPQa3SD91xizdDYpuk02U6kIlkZQeqOh5SwrD67%2F3k%2B8qlc%3D&amp;RelayState=https%3A%2F%2Faccounts.google.com%2FCheckCookie%3Fcontinue%3Dhttps%253A%252F%252Fmail.google.com%252Fmail%252Fu%252F0%252F%26service%3Dmail%26checkedDomains%3Dyoutube%26checkConnection%3Dyoutube%253A174%26pstMsg%3D1%26osid%3D1%26flowName%3DGlifWebSignIn%26ifkv%3DARZ0qKJ7Lfe5_Vd7PKMhyJXFF2otPdlfsDs_jBFsLwyIXE8pd0zMARkC9pJ-xAgfmPGtyw3G-ERdJg%26theme%3Dmn" DesignTimeRectangle="707, 696, 525, 45" DesignTimeScaleFactor="1.25" ElementType="InputBoxPassword" FriendlyName="'INPUT password'" FullSelectorArgument="&lt;webctrl id='password' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='password' tag='INPUT' type='password' class='pf-c-form-control' aaname='Contraseña' /&gt;" Guid="b57d63a6-f3ac-45dc-8262-847fcbf1b01b" ImageBase64="" InformativeScreenshot="741e2b7eac46721ba314aeff7b6b9821.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Inicia sesión en Facultad de Ingeniería' /&gt;" SearchSteps="Selector" Version="V2" Visibility="Interactive">
                   <uix:TargetAnchorable.Anchors>
-                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
-                      <uix:Target DesignTimeRectangle="1822, 519, 25, 24" ElementType="Text" FriendlyName="'Cco'" FullSelectorArgument="&lt;webctrl parentid=':m8' tableRow='1' tag='TABLE' /&gt;&lt;webctrl id=':ly' tableRow='1' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid=':m8' tag='TABLE' /&gt;&lt;webctrl id=':ly' type='' tag='SPAN' class='aB  gQ pB' aaname='Cco' check:innerText='Cco' /&gt;" SearchSteps="FuzzySelector" />
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target DesignTimeRectangle="707, 671, 81, 25" ElementType="Text" FriendlyName="'Contraseña'" FullSelectorArgument="&lt;webctrl aaname='Contraseña' tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Contraseña' tag='LABEL' type='' class='pf-c-form__label pf-c-form__label-text' check:innerText='Contraseña' /&gt;" SearchSteps="FuzzySelector" />
                     </scg:List>
                   </uix:TargetAnchorable.Anchors>
                 </uix:TargetAnchorable>
               </uix:NTypeInto.Target>
             </uix:NTypeInto>
-            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Clic 'DIV :1vm'" sap:VirtualizedContainerService.HintSize="353.6,197.6" sap2010:WorkflowViewState.IdRef="NClick_42" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="1c323c33-3649-4aa5-b9ec-ae67e2169da9" Version="V3">
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Clic 'Iniciar sesión'" sap:VirtualizedContainerService.HintSize="353.6,197.6" sap2010:WorkflowViewState.IdRef="NClick_61" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="1c323c33-3649-4aa5-b9ec-ae67e2169da9" Version="V3">
               <uix:NClick.Target>
-                <uix:TargetAnchorable BrowserURL="https://mail.google.com/mail/u/1/#inbox?compose=new" DesignTimeRectangle="1434, 1045, 20, 20" DesignTimeScaleFactor="1" FriendlyName="'DIV :1vk'" FullSelectorArgument="&lt;webctrl tableRow='4' tag='TABLE' /&gt;&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;table&amp;gt;tbody&amp;gt;tr&amp;gt;td&amp;gt;table&amp;gt;tbody&amp;gt;tr&amp;gt;td&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;table&amp;gt;tbody&amp;gt;tr&amp;gt;td&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div' tableCol='4' tableRow='1' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='' class='a1 aaA aMZ' aaname='' tag='DIV' /&gt;" Guid="43aefa23-c0b5-4b7b-9e75-c3d734423a3e" InformativeScreenshot="b6384ad6ee4a6f627ca845ffab4572dd.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Recibidos (799) - 3007201810101@ingenieria.usac.edu.gt - Correo de Facultad de Ingeniería, USAC' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive">
+                <uix:TargetAnchorable BrowserURL="https://auth.ingenieria.usac.edu.gt/auth/realms/fiusac-general/protocol/saml/clients/googleapps?SAMLRequest=jZJPT%2BMwEMXvSHwHy%2Ff8aWG1yGqCCghtJRYiGvbAzXGmiZHjyXrsFr49bgqCPYD2%2Bjwz7%2FfGszh%2FHgzbgiONtuCzNOcMrMJW267gD%2FV1csbPy%2BOjBcnBjGIZfG%2Fv4W8A8ix2WhLTQ8GDswIlaRJWDkDCK7Fe%2Fr4R8zQXo0OPCg1nq6uCI2o19M3YaGwkPgGqJ4RN3w59h8Y2epRj28LYcfbnHWu%2Bx1oRBVhZ8tL6KOXz0yQ%2FSeY%2F6zwXpz9EfvbIWfXmdKHtIcF3WM2hiMSvuq6S6m5dTwO2ugV3G6sL3iF2BlKFw96%2BkkR6G%2BWNNAScLYnA%2BQh4iZbCAG4NbqsVPNzfFLz3fiSRZbvdLv0Yk8ksOoLV4LRMA0mVQhvSzmdSES%2BnLYspqPu03u9jyHcMXv6H0SL75FG%2Bfes%2B7eqqQqPVC1sag7tLB9LHqN6FmPQa3SD91xizdDYpuk02U6kIlkZQeqOh5SwrD67%2F3k%2B8qlc%3D&amp;RelayState=https%3A%2F%2Faccounts.google.com%2FCheckCookie%3Fcontinue%3Dhttps%253A%252F%252Fmail.google.com%252Fmail%252Fu%252F0%252F%26service%3Dmail%26checkedDomains%3Dyoutube%26checkConnection%3Dyoutube%253A174%26pstMsg%3D1%26osid%3D1%26flowName%3DGlifWebSignIn%26ifkv%3DARZ0qKJ7Lfe5_Vd7PKMhyJXFF2otPdlfsDs_jBFsLwyIXE8pd0zMARkC9pJ-xAgfmPGtyw3G-ERdJg%26theme%3Dmn" DesignTimeRectangle="707, 809, 525, 38" DesignTimeScaleFactor="1.25" ElementType="Button" FriendlyName="'Iniciar sesión'" FullSelectorArgument="&lt;webctrl id='kc-login' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='kc-login' tag='INPUT' type='submit' class='pf-c-button pf-m-primary pf-m-block btn-lg' aaname='Iniciar sesión' check:text='Iniciar sesión' /&gt;" Guid="063a224e-bb7c-4bee-8240-aff37512444e" ImageBase64="" InformativeScreenshot="4d563e666059ede3f508296078eca160.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Inicia sesión en Facultad de Ingeniería' /&gt;" SearchSteps="Selector" Version="V2" Visibility="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Clic 'DIV'" sap:VirtualizedContainerService.HintSize="353.6,197.6" sap2010:WorkflowViewState.IdRef="NClick_62" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="1c323c33-3649-4aa5-b9ec-ae67e2169da9" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://accounts.google.com/speedbump/samlconfirmaccount?checkConnection=youtube%3A174&amp;checkedDomains=youtube&amp;continue=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F&amp;osid=1&amp;sarp=1&amp;scc=0&amp;service=mail&amp;TL=AEzbmxzXJYmzPXCGVLTmIDNw5sR3mn1cYAceRLuU9d9Cy2alXvJ863WaeGmJisr0" DesignTimeRectangle="1057, 593, 143, 60" DesignTimeScaleFactor="1.25" FriendlyName="'DIV'" FullSelectorArgument="&lt;webctrl class='VfPpkd-RLmnJb' parentid='view_container' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl class='VfPpkd-RLmnJb' parentid='view_container' tag='DIV' type='' aaname='' /&gt;" Guid="0c797eb0-5912-46a6-a084-6f2e8fbe780b" ImageBase64="" InformativeScreenshot="d4f9e738600b157c59e6ac614bba7e34.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Gmail' /&gt;" SearchSteps="Selector" Version="V2" Visibility="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Clic 'Redactar'" sap:VirtualizedContainerService.HintSize="353.6,197.6" sap2010:WorkflowViewState.IdRef="NClick_63" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="1c323c33-3649-4aa5-b9ec-ae67e2169da9" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://mail.google.com/mail/u/0/#inbox" DesignTimeRectangle="89, 189, 136, 56" DesignTimeScaleFactor="1" ElementType="Text" FriendlyName="'Redactar'" FullSelectorArgument="&lt;webctrl aaname='Redactar' aria-role='button' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Redactar' aria-role='button' tag='DIV' type='' class='T-I T-I-KE L3' check:innerText='Redactar' /&gt;" Guid="ecf682ee-0a4e-42e9-b187-5ac2209024af" ImageBase64="" InformativeScreenshot="56658dd0ca85bdb0c5e407b10fb0ffc7.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Recibidos (799) - 3007201810101@ingenieria.usac.edu.gt - Correo de Facultad de Ingeniería, USAC' /&gt;" SearchSteps="Selector" Version="V2" Visibility="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Escribir en 'Para'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="353.6,258.4" sap2010:WorkflowViewState.IdRef="NTypeInto_21" ScopeIdentifier="1c323c33-3649-4aa5-b9ec-ae67e2169da9" Text="gameralexis12@gmail.com" Version="V3">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="https://mail.google.com/mail/u/0/#inbox?compose=new" DesignTimeRectangle="1321, 513, 479, 36" DesignTimeScaleFactor="1" ElementType="InputBox" FriendlyName="'INPUT :ss'" FullSelectorArgument="&lt;webctrl parentid=':mx' tableRow='1' tag='TABLE' /&gt;&lt;webctrl id=':ss' tableRow='1' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid=':mx' tag='TABLE' /&gt;&lt;webctrl id=':ss' type='text' tag='INPUT' class='agP aFw' aaname='' /&gt;" Guid="580ce1af-0842-40d0-84e0-72abd4688d99" ImageBase64="" InformativeScreenshot="e5a6fe3132fd30c01e456a6398f89ecf.png" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Recibidos (799) - 3007201810101@ingenieria.usac.edu.gt - Correo de Facultad de Ingeniería, USAC' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target DesignTimeRectangle="1284, 522, 29, 18" ElementType="Text" FriendlyName="'Para'" FullSelectorArgument="&lt;webctrl parentid=':mt' tableRow='1' tag='TABLE' /&gt;&lt;webctrl id=':p8' tableRow='1' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid=':mt' tag='TABLE' /&gt;&lt;webctrl id=':p8' type='' tag='SPAN' class='gO aQY' aaname='Para' check:innerText='Para' /&gt;" SearchSteps="Selector, FuzzySelector" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Escribir en 'INPUT :p6'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="353.6,258.4" sap2010:WorkflowViewState.IdRef="NTypeInto_15" ScopeIdentifier="1c323c33-3649-4aa5-b9ec-ae67e2169da9" Text="201800476" Version="V3">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="https://mail.google.com/mail/u/0/#inbox?compose=new" DesignTimeRectangle="1284, 561, 568, 20" DesignTimeScaleFactor="1" ElementType="InputBox" FriendlyName="'INPUT :p6'" FullSelectorArgument="&lt;webctrl id=':o8' tag='TABLE' /&gt;&lt;webctrl id=':p6' tableRow='1' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id=':o8' tag='TABLE' /&gt;&lt;webctrl id=':p6' type='' tag='INPUT' class='aoT' aaname='' /&gt;" Guid="9effda32-aa9f-4da8-97bf-256877591947" ImageBase64="" InformativeScreenshot="a649bac32e561a20dae64df2b868cbd6.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Recibidos (799) - 3007201810101@ingenieria.usac.edu.gt - Correo de Facultad de Ingeniería, USAC' /&gt;" SearchSteps="Selector" Version="V2" Visibility="Interactive" />
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Clic 'DIV :qs'" sap:VirtualizedContainerService.HintSize="353.6,197.6" sap2010:WorkflowViewState.IdRef="NClick_60" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="1c323c33-3649-4aa5-b9ec-ae67e2169da9" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://mail.google.com/mail/u/0/#inbox?compose=new" DesignTimeRectangle="1434, 1045, 20, 20" DesignTimeScaleFactor="1" FriendlyName="'DIV :qs'" FullSelectorArgument="&lt;webctrl id=':ou' tableRow='4' tag='TABLE' /&gt;&lt;webctrl id=':qs' tableRow='1' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl id=':ou' tag='TABLE' /&gt;&lt;webctrl id=':qs' type='' tag='DIV' class='a1 aaA aMZ' aaname='' /&gt;" Guid="9ba83871-cdb4-4e8c-a5ef-83e3ce180d16" ImageBase64="" InformativeScreenshot="5ebe03870d0364b3e88fe319950a542d.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Recibidos (799) - 3007201810101@ingenieria.usac.edu.gt - Correo de Facultad de Ingeniería, USAC' /&gt;" SearchSteps="Selector" Version="V2" Visibility="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Clic 'Ubicaciones anteriores'" sap:VirtualizedContainerService.HintSize="353.6,197.6" sap2010:WorkflowViewState.IdRef="NClick_70" InteractionMode="HardwareEvents" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="1c323c33-3649-4aa5-b9ec-ae67e2169da9" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable DesignTimeRectangle="579, 48, 47, 47" DesignTimeScaleFactor="1.25" ElementType="Button" FriendlyName="'Ubicaciones anteriores'" FullSelectorArgument="&lt;wnd aaname='Cargando' cls='msctls_progress32' /&gt;&lt;wnd cls='ToolbarWindow32' title='Banda de direcciones' /&gt;&lt;ctrl name='Banda de direcciones' role='tool bar' /&gt;&lt;ctrl name='Ubicaciones anteriores' role='push button' /&gt;" FuzzySelectorArgument="&lt;wnd aaname='Cargando' cls='msctls_progress32' /&gt;&lt;wnd cls='ToolbarWindow32' title='Banda de direcciones' /&gt;&lt;ctrl name='Banda de direcciones' role='tool bar' /&gt;&lt;ctrl name='Ubicaciones anteriores' role='push button' automationid='' check:text='Ubicaciones anteriores' /&gt;" Guid="5631e2e1-832e-450b-b9bf-5613b2c22145" ImageBase64="" InformativeScreenshot="66d2e9f849d1e38487806228c53402bc.png" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='#32770' title='Guardar como' /&gt;" SearchSteps="Selector" Version="V2" Visibility="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Escribir en 'C:\Users\alexm\Download…'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="353.6,258.4" sap2010:WorkflowViewState.IdRef="NTypeInto_23" InteractionMode="HardwareEvents" ScopeIdentifier="1c323c33-3649-4aa5-b9ec-ae67e2169da9" Text="C:\Users\alexm\Downloads\ALEXIS\Repositories\IA1_Proyecto1_201800476\results" Version="V3">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable CvElementArea="181, 50, 405, 36" CvType="InputBox" DesignTimeRectangle="210, 59, 371, 20" DesignTimeScaleFactor="1.25" ElementType="InputBox" FriendlyName="'C:\Users\alexm\Download…'" FullSelectorArgument="&lt;wnd aaname='Cargando' cls='msctls_progress32' /&gt;&lt;wnd ctrlid='41477' /&gt;&lt;wnd ctrlid='41477' /&gt;" FuzzySelectorArgument="&lt;wnd aaname='Cargando' cls='msctls_progress32' /&gt;&lt;wnd ctrlid='41477' /&gt;&lt;wnd ctrlid='41477' /&gt;" Guid="f0d0dbfa-f2d4-49cb-950d-c2080558f4e2" InformativeScreenshot="7ff18ec6b1e83343048499d98244ff23.png" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='#32770' title='Guardar como' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V2" Visibility="Interactive">
                   <uix:TargetAnchorable.Anchors>
                     <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
-                      <uix:Target DesignTimeRectangle="1466, 1045, 20, 20" FriendlyName="'DIV :1vm'" FullSelectorArgument="&lt;webctrl tableRow='4' tag='TABLE' /&gt;&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;table&amp;gt;tbody&amp;gt;tr&amp;gt;td&amp;gt;table&amp;gt;tbody&amp;gt;tr&amp;gt;td&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;table&amp;gt;tbody&amp;gt;tr&amp;gt;td&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div' idx='2' tableCol='4' tableRow='1' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='' class='e5 aaA aMZ' aaname='' tag='DIV' /&gt;" ImageBase64="" SearchSteps="Selector, FuzzySelector" />
+                      <uix:Target CvElementArea="181, 50, 405, 36" CvType="InputBox" DesignTimeRectangle="182, 48, 444, 42" ElementType="InputBox" FriendlyName="'C:\Users\alexm\Download…'" FullSelectorArgument="&lt;wnd aaname='Cargando' cls='msctls_progress32' /&gt;&lt;wnd ctrlid='41477' /&gt;&lt;wnd ctrlid='41477' /&gt;" FuzzySelectorArgument="&lt;wnd aaname='Cargando' cls='msctls_progress32' /&gt;&lt;wnd ctrlid='41477' /&gt;&lt;wnd ctrlid='41477' /&gt;" SearchSteps="Selector, FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+            <uix:NClick ActivateBefore="True" ClickType="Double" DisplayName="Clic 'Banda de direcciones'" sap:VirtualizedContainerService.HintSize="353.6,197.6" sap2010:WorkflowViewState.IdRef="NClick_65" InteractionMode="HardwareEvents" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="1c323c33-3649-4aa5-b9ec-ae67e2169da9" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable DesignTimeRectangle="626, 48, 47, 44" DesignTimeScaleFactor="1.25" ElementType="Toolbar" FriendlyName="'Banda de direcciones'" FullSelectorArgument="&lt;wnd aaname='Cargando' cls='msctls_progress32' /&gt;&lt;wnd cls='ToolbarWindow32' title='Banda de direcciones' /&gt;" FuzzySelectorArgument="&lt;wnd aaname='Cargando' cls='msctls_progress32' /&gt;&lt;wnd cls='ToolbarWindow32' title='Banda de direcciones' check:text='Banda de direcciones' /&gt;" Guid="193cc78b-f528-4040-8eb7-d5e87b5617b8" InformativeScreenshot="4b9fda3c968764c997c165ce269f61bb.png" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='#32770' title='Guardar como' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V2" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CvElementArea="592, 57, 23, 23" CvType="ArrowButton" DesignTimeRectangle="585, 49, 40, 40" ElementType="Button" FriendlyName="'C:\Users\alexm\Download…'" FullSelectorArgument="&lt;wnd aaname='Cargando' cls='msctls_progress32' /&gt;&lt;wnd ctrlid='41477' /&gt;&lt;ctrl name='Dirección' role='combo box' /&gt;&lt;ctrl name='Dirección' role='push button' /&gt;" FuzzySelectorArgument="&lt;wnd aaname='Cargando' cls='msctls_progress32' /&gt;&lt;wnd ctrlid='41477' /&gt;&lt;ctrl name='Dirección' role='combo box' /&gt;&lt;ctrl name='Dirección' role='push button' automationid='' check:text='C:\Users\alexm\Downloads\ALEXIS\Repositories\IA1_Proyecto1_201800476\files' /&gt;" SearchSteps="Selector, FuzzySelector, CV" />
                     </scg:List>
                   </uix:TargetAnchorable.Anchors>
                 </uix:TargetAnchorable>
               </uix:NClick.Target>
             </uix:NClick>
-            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Clic 'Archivo_prueba'" sap:VirtualizedContainerService.HintSize="353.6,197.6" sap2010:WorkflowViewState.IdRef="NClick_43" InteractionMode="HardwareEvents" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="1c323c33-3649-4aa5-b9ec-ae67e2169da9" Version="V3">
-              <uix:NClick.Target>
-                <uix:TargetAnchorable DesignTimeRectangle="255, 216, 294, 28" DesignTimeScaleFactor="1.25" ElementType="Text" FriendlyName="'Archivo_prueba'" FullSelectorArgument="&lt;wnd aaname='Panel del explorador' cls='DirectUIHWND' /&gt;&lt;wnd ctrlid='1121' title='ShellView' /&gt;&lt;wnd aaname='Vista Elementos' cls='DirectUIHWND' /&gt;&lt;ctrl name='Vista Elementos' role='list' /&gt;&lt;ctrl automationid='0' /&gt;&lt;ctrl automationid='0' /&gt;&lt;ctrl automationid='System.ItemNameDisplay' /&gt;" FuzzySelectorArgument="&lt;wnd aaname='Panel del explorador' cls='DirectUIHWND' /&gt;&lt;wnd ctrlid='1121' title='ShellView' /&gt;&lt;wnd aaname='Vista Elementos' cls='DirectUIHWND' /&gt;&lt;ctrl name='Vista Elementos' role='list' /&gt;&lt;ctrl automationid='0' /&gt;&lt;ctrl automationid='0' /&gt;&lt;ctrl automationid='System.ItemNameDisplay' role='editable text' check:text='Archivo_prueba' /&gt;" Guid="26bacdae-98cc-4a4d-a2b4-82b4b215c87b" InformativeScreenshot="8f221ead9b50540454c15175d38b3948.png" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='#32770' title='Abrir' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V2" Visibility="Interactive">
-                  <uix:TargetAnchorable.Anchors>
-                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
-                      <uix:Target DesignTimeRectangle="227, 212, 747, 35" ElementType="ListItem" FriendlyName="'Archivo_prueba'" FullSelectorArgument="&lt;wnd aaname='Panel del explorador' cls='DirectUIHWND' /&gt;&lt;wnd ctrlid='1121' title='ShellView' /&gt;&lt;wnd aaname='Vista Elementos' cls='DirectUIHWND' /&gt;&lt;ctrl name='Vista Elementos' role='list' /&gt;&lt;ctrl automationid='0' /&gt;&lt;ctrl automationid='0' /&gt;" FuzzySelectorArgument="&lt;wnd aaname='Panel del explorador' cls='DirectUIHWND' /&gt;&lt;wnd ctrlid='1121' title='ShellView' /&gt;&lt;wnd aaname='Vista Elementos' cls='DirectUIHWND' /&gt;&lt;ctrl name='Vista Elementos' role='list' /&gt;&lt;ctrl automationid='0' /&gt;&lt;ctrl automationid='0' role='list item' check:text='Archivo_prueba' /&gt;" SearchSteps="Selector, FuzzySelector" />
-                    </scg:List>
-                  </uix:TargetAnchorable.Anchors>
-                </uix:TargetAnchorable>
-              </uix:NClick.Target>
-            </uix:NClick>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Escribir en 'Edit'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="353.6,258.4" sap2010:WorkflowViewState.IdRef="NTypeInto_24" InteractionMode="HardwareEvents" ScopeIdentifier="1c323c33-3649-4aa5-b9ec-ae67e2169da9" Text="201800476.xlsx" Version="V3">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable CvElementArea="292, 505, 391, 32" CvType="InputBox" DesignTimeRectangle="298, 512, 359, 20" DesignTimeScaleFactor="1.25" ElementType="InputBox" FriendlyName="'Edit'" FullSelectorArgument="&lt;wnd ctrlid='1148' /&gt;&lt;wnd ctrlid='1148' /&gt;&lt;wnd ctrlid='1148' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlid='1148' /&gt;&lt;wnd ctrlid='1148' /&gt;&lt;wnd ctrlid='1148' /&gt;" Guid="4d6ee5bc-4dff-4c54-bd78-8577c49fa5cb" InformativeScreenshot="ff76139351bc9939bc1300c5de515063.png" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='#32770' title='Abrir' /&gt;" SearchSteps="Selector" Version="V2" Visibility="Interactive" />
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
             <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Clic 'unchecked'" sap:VirtualizedContainerService.HintSize="353.6,197.6" sap2010:WorkflowViewState.IdRef="NClick_44" InteractionMode="HardwareEvents" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="1c323c33-3649-4aa5-b9ec-ae67e2169da9" Version="V3">
               <uix:NClick.Target>
                 <uix:TargetAnchorable DesignTimeRectangle="696, 543, 110, 33" DesignTimeScaleFactor="1.25" ElementType="Button" FriendlyName="'unchecked'" FullSelectorArgument="&lt;wnd ctrlid='1' title='&amp;amp;Abrir' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlid='1' title='&amp;amp;Abrir' check:text='unchecked' /&gt;" Guid="cc181b62-aae9-49bf-998e-1b4067892a4e" InformativeScreenshot="20541d18ea8aecc616477c65b14c6d99.png" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='#32770' title='Abrir' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V2" Visibility="Interactive">
@@ -1404,22 +1541,16 @@
                 </uix:TargetAnchorable>
               </uix:NClick.Target>
             </uix:NClick>
-            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Clic 'Enviar'" sap:VirtualizedContainerService.HintSize="353.6,180.8" sap2010:WorkflowViewState.IdRef="NClick_45" InteractionMode="HardwareEvents" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="1c323c33-3649-4aa5-b9ec-ae67e2169da9" Version="V3">
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Clic 'Enviar'" sap:VirtualizedContainerService.HintSize="353.6,182.4" sap2010:WorkflowViewState.IdRef="NClick_45" InteractionMode="HardwareEvents" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="1c323c33-3649-4aa5-b9ec-ae67e2169da9" Version="V3">
               <uix:NClick.Target>
-                <uix:TargetAnchorable BrowserURL="https://mail.google.com/mail/u/1/#inbox?compose=CllgCHrhTrthgFRKLvXcbmbQldgXCDzTmMrDCXsJzJTxRZBzJnMMVPcvxzLLbvCXgczkGGcGtDq" DesignTimeRectangle="1284, 1038, 73, 36" DesignTimeScaleFactor="1" ElementType="Text" FriendlyName="'Enviar'" FullSelectorArgument="&lt;webctrl tableRow='4' tag='TABLE' /&gt;&lt;webctrl aria-role='button' tableRow='1' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl aria-role='button' type='' tag='DIV' class='T-I J-J5-Ji aoO v7 T-I-atl L3' aaname='Enviar' check:innerText='Enviar' /&gt;" Guid="1bd175ad-0d5d-40ac-9469-f3ad88e8c733" InformativeScreenshot="fce6467ccd93cd811c628624b9c6062e.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Recibidos (799) - 3007201810101@ingenieria.usac.edu.gt - Correo de Facultad de Ingeniería, USAC' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive">
-                  <uix:TargetAnchorable.Anchors>
-                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
-                      <uix:Target DesignTimeRectangle="1363, 1046, 20, 20" FriendlyName="'DIV'" FullSelectorArgument="&lt;webctrl tableRow='4' tag='TABLE' /&gt;&lt;webctrl class='G-asx' tableRow='1' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl class='G-asx' type='' tag='DIV' aaname='' /&gt;" ImageBase64="" SearchSteps="Selector, FuzzySelector" />
-                    </scg:List>
-                  </uix:TargetAnchorable.Anchors>
-                </uix:TargetAnchorable>
+                <uix:TargetAnchorable BrowserURL="https://mail.google.com/mail/u/0/#inbox?compose=CllgCHrhVNhlbQjfvkHVtsQWTjMdGhPXsjXmWxgssvLjWZxJHTDQmpQGKXjWvZjTMMmqMgTMZVq" DesignTimeRectangle="1284, 1038, 73, 36" DesignTimeScaleFactor="1" ElementType="Text" FriendlyName="'Enviar'" FullSelectorArgument="&lt;webctrl id=':ou' tableRow='4' tag='TABLE' /&gt;&lt;webctrl id=':ow' tableRow='1' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl id=':ou' tag='TABLE' /&gt;&lt;webctrl id=':ow' type='' tag='DIV' class='T-I J-J5-Ji aoO v7 T-I-atl L3' aaname='Enviar' check:innerText='Enviar' /&gt;" Guid="973d92cb-5dbf-40df-b600-b18140a08382" ImageBase64="" InformativeScreenshot="e73d425a5a0460e35923ef08ed886ccd.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Recibidos (799) - 3007201810101@ingenieria.usac.edu.gt - Correo de Facultad de Ingeniería, USAC' /&gt;" SearchSteps="Selector" Version="V2" Visibility="Interactive" />
               </uix:NClick.Target>
             </uix:NClick>
           </Sequence>
         </ActivityAction>
       </uix:NApplicationCard.Body>
       <uix:NApplicationCard.TargetApp>
-        <uix:TargetApp Area="-9, -9, 1938, 1098" BrowserType="Chrome" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAMHSURBVDhPbZNrSBRRFMeHLIjog30pTcx8FVZWVFYfVIJCqYz6EgVFW2j0ogcmttEDQdClMKISt3eaBaXtsq5raVRSlJWKgqu1pG6uu5quzj6mXbszd+bfnV39pH84MJx7fn/OPXMPNyUAs1jEsMhgoQGlJd4Jv9Hmc1m//OkWPg9bZYcw6pAVWcfOoyaxsFhikSKKxWJPjzXwyuDx37otegq1aDudiz0VGkRX7UPUk73YWHsK5V0m2UcCBpWZgqMUQTD4797DcOYWOJenwJmQBGd8IobiEnD+4AZw+ixEVGRhNov593NwreMFWCfFUwY6obKKOlNWMjA5DCcvh2vVatgz0qHVHcaexiLkWC5hwcPdmKPPRvKzQ+h093YxNoajrqGBkV27Q6ArdQ34CxcRqKnFvy8tCP62g5/wQ5QpghLB0eYbIYN593aiyvaWZwYZHGlto0Pr00Itu4/kQgkGWX5mPf7xBnPvbg+ZFLdViyyl4Uh7uzCUthmDcYkYyzsGNsxw9Qx67+xAJLuGOo+8D2VsDkopJ/Xbre6DWeCPx8KjzYHs9UyWT5eNd2Fp5SFE6Ldhx6sSeALEyMk+r/Ff3X6QuigQyzoo3t7J8uniAwRbyysRWXQZW64ZYR8JWDkocqnUcQ7EFM0MkiC7P02WT5dIZeTpW7HkRD3Wa5vQ1scL6m/U0J9lIjEtZl3EQh54Hq6eQUFCoSn/hiUnzVhb2IjWvnGqGmTIjhc8McexLhZD6sgH6ASgSKDEC8eoF59tY3jZ4kBhdSdW5L9G3Ckzduo+wsUHB1SDGMVr7RLfbgoZEEsypJYDkL9r0FhTgMwrDUhhUMLp+hCoxrKzFjxptlPG6sKvkT1L+usOiDk+bMLmQU0Lcb3sKGJOWEItq2DSGQvSr75DRVMvhAlJ3YfwUrGPRZD8Btr/SBabs0Fer4L0JhU28z5oH9Sh4GknbjbYxNqvg57uQZ+VDbNYZULwlFQ31olOCbocyvh3WRlvFfC3z0qJz0hlpYSda1ioq66u/KwwxXH/AUVL7Oa+h12CAAAAAElFTkSuQmCC" Selector="&lt;html app='chrome.exe' url='https://mail.google.com/mail/u/1/#inbox?compose=new' /&gt;" Title="Software de mesa de ayuda con funciones sólidas | Cerrar sesión en Zoho Desk" Url="https://mail.google.com/mail/u/1/#inbox?compose=new" />
+        <uix:TargetApp Area="-9, -9, 1938, 1098" BrowserType="Chrome" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAMHSURBVDhPbZNrSBRRFMeHLIjog30pTcx8FVZWVFYfVIJCqYz6EgVFW2j0ogcmttEDQdClMKISt3eaBaXtsq5raVRSlJWKgqu1pG6uu5quzj6mXbszd+bfnV39pH84MJx7fn/OPXMPNyUAs1jEsMhgoQGlJd4Jv9Hmc1m//OkWPg9bZYcw6pAVWcfOoyaxsFhikSKKxWJPjzXwyuDx37otegq1aDudiz0VGkRX7UPUk73YWHsK5V0m2UcCBpWZgqMUQTD4797DcOYWOJenwJmQBGd8IobiEnD+4AZw+ixEVGRhNov593NwreMFWCfFUwY6obKKOlNWMjA5DCcvh2vVatgz0qHVHcaexiLkWC5hwcPdmKPPRvKzQ+h093YxNoajrqGBkV27Q6ArdQ34CxcRqKnFvy8tCP62g5/wQ5QpghLB0eYbIYN593aiyvaWZwYZHGlto0Pr00Itu4/kQgkGWX5mPf7xBnPvbg+ZFLdViyyl4Uh7uzCUthmDcYkYyzsGNsxw9Qx67+xAJLuGOo+8D2VsDkopJ/Xbre6DWeCPx8KjzYHs9UyWT5eNd2Fp5SFE6Ldhx6sSeALEyMk+r/Ff3X6QuigQyzoo3t7J8uniAwRbyysRWXQZW64ZYR8JWDkocqnUcQ7EFM0MkiC7P02WT5dIZeTpW7HkRD3Wa5vQ1scL6m/U0J9lIjEtZl3EQh54Hq6eQUFCoSn/hiUnzVhb2IjWvnGqGmTIjhc8McexLhZD6sgH6ASgSKDEC8eoF59tY3jZ4kBhdSdW5L9G3Ckzduo+wsUHB1SDGMVr7RLfbgoZEEsypJYDkL9r0FhTgMwrDUhhUMLp+hCoxrKzFjxptlPG6sKvkT1L+usOiDk+bMLmQU0Lcb3sKGJOWEItq2DSGQvSr75DRVMvhAlJ3YfwUrGPRZD8Btr/SBabs0Fer4L0JhU28z5oH9Sh4GknbjbYxNqvg57uQZ+VDbNYZULwlFQ31olOCbocyvh3WRlvFfC3z0qJz0hlpYSda1ioq66u/KwwxXH/AUVL7Oa+h12CAAAAAElFTkSuQmCC" Selector="&lt;html app='chrome.exe' url='https://mail.google.com/' /&gt;" Title="Software de mesa de ayuda con funciones sólidas | Cerrar sesión en Zoho Desk" Url="https://mail.google.com/" />
       </uix:NApplicationCard.TargetApp>
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
