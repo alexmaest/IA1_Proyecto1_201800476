@@ -1,0 +1,31 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Main.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "singleCounter&Sequence_1",
+        "singleDate&Sequence_6",
+        "tickets_df&Sequence_1",
+        "Browser1&Sequence_1",
+        "Browser2&Sequence_1",
+        "EmploymentStatus&Sequence_6",
+        "Include&Sequence_6",
+        "JotTitle&Sequence_6",
+        "SubUnit&Sequence_6",
+        "idFounded&Sequence_6"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    }
+  ]
+}
