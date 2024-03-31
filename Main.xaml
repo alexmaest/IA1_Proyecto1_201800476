@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap2010:Annotation.AnnotationText="UPTF00000088eyI8SGVscExpbms+a19fQmFja2luZ0ZpZWxkIjpudWxsLCI8SW5pdGlhbFRvb2x0aXA+a19fQmFja2luZ0ZpZWxkIjpudWxsLCI8VmVyc2lvbj5rX19CYWNraW5nRmllbGQiOjF9" sap:VirtualizedContainerService.HintSize="1109.6,647.2" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:s="clr-namespace:System;assembly=System.Private.CoreLib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data.Common" xmlns:ue="clr-namespace:UiPath.Excel;assembly=UiPath.Excel.Activities" xmlns:ueab="clr-namespace:UiPath.Excel.Activities.Business;assembly=UiPath.Excel.Activities" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:uuam="clr-namespace:UiPath.UIAutomationNext.Activities.Models;assembly=UiPath.UIAutomationNext.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap2010:Annotation.AnnotationText="UPTF00000088eyI8SGVscExpbms+a19fQmFja2luZ0ZpZWxkIjpudWxsLCI8SW5pdGlhbFRvb2x0aXA+a19fQmFja2luZ0ZpZWxkIjpudWxsLCI8VmVyc2lvbj5rX19CYWNraW5nRmllbGQiOjF9" sap:VirtualizedContainerService.HintSize="1109.6,6469.6" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:s="clr-namespace:System;assembly=System.Private.CoreLib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data.Common" xmlns:ue="clr-namespace:UiPath.Excel;assembly=UiPath.Excel.Activities" xmlns:ueab="clr-namespace:UiPath.Excel.Activities.Business;assembly=UiPath.Excel.Activities" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:uuam="clr-namespace:UiPath.UIAutomationNext.Activities.Models;assembly=UiPath.UIAutomationNext.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
       <x:String>System.Activities</x:String>
@@ -125,7 +125,7 @@
       <AssemblyReference>System.IO.FileSystem.DriveInfo</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Main" sap:VirtualizedContainerService.HintSize="416,396" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Main" sap:VirtualizedContainerService.HintSize="1110.4,6404.8" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="sd:DataTable" Name="tickets_df" />
       <Variable x:TypeArguments="ui:UiElement" Name="Browser1" />
@@ -138,7 +138,7 @@
         <x:Boolean x:Key="IsPinned">False</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Utilizar Navegador Chrome: Zoho" sap:VirtualizedContainerService.HintSize="353.6,64.8" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" InteractionMode="DebuggerApi" OpenMode="IfNotOpen" OutUiElement="[Browser1]" ScopeGuid="1c323c33-3649-4aa5-b9ec-ae67e2169da9" Version="V2">
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Utilizar Navegador Chrome: Zoho" sap:VirtualizedContainerService.HintSize="1048,64.8" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" InteractionMode="DebuggerApi" OpenMode="IfNotOpen" OutUiElement="[Browser1]" ScopeGuid="1c323c33-3649-4aa5-b9ec-ae67e2169da9" Version="V2">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
@@ -386,7 +386,7 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </uix:NApplicationCard>
-    <ueab:ExcelProcessScopeX DisplayAlerts="{x:Null}" ExistingProcessAction="{x:Null}" FileConflictResolution="{x:Null}" LaunchMethod="{x:Null}" LaunchTimeout="{x:Null}" MacroSettings="{x:Null}" ProcessMode="{x:Null}" ShowExcelWindow="{x:Null}" DisplayName="Alcance del proceso de Excel" sap:VirtualizedContainerService.HintSize="353.6,64.8" sap2010:WorkflowViewState.IdRef="ExcelProcessScopeX_1">
+    <ueab:ExcelProcessScopeX DisplayAlerts="{x:Null}" ExistingProcessAction="{x:Null}" FileConflictResolution="{x:Null}" LaunchMethod="{x:Null}" LaunchTimeout="{x:Null}" MacroSettings="{x:Null}" ProcessMode="{x:Null}" ShowExcelWindow="{x:Null}" DisplayName="Alcance del proceso de Excel" sap:VirtualizedContainerService.HintSize="1048,64.8" sap2010:WorkflowViewState.IdRef="ExcelProcessScopeX_1">
       <ueab:ExcelProcessScopeX.Body>
         <ActivityAction x:TypeArguments="ui:IExcelProcess">
           <ActivityAction.Argument>
@@ -434,16 +434,16 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </ueab:ExcelProcessScopeX>
-    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Utilizar Navegador Chrome: OrangeHRM" sap:VirtualizedContainerService.HintSize="353.6,64.8" sap2010:WorkflowViewState.IdRef="NApplicationCard_3" InteractionMode="DebuggerApi" OpenMode="IfNotOpen" OutUiElement="[Browser2]" ScopeGuid="cc2bbf7f-0907-4a3b-b4e9-7de67af63450" Version="V2">
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Utilizar Navegador Chrome: OrangeHRM" sap:VirtualizedContainerService.HintSize="1048,6073.6" sap2010:WorkflowViewState.IdRef="NApplicationCard_3" InteractionMode="DebuggerApi" OpenMode="IfNotOpen" OutUiElement="[Browser2]" ScopeGuid="cc2bbf7f-0907-4a3b-b4e9-7de67af63450" Version="V2">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Hacer" sap:VirtualizedContainerService.HintSize="416,22.4" sap2010:WorkflowViewState.IdRef="Sequence_5">
+          <Sequence DisplayName="Hacer" sap:VirtualizedContainerService.HintSize="1014.4,5776.8" sap2010:WorkflowViewState.IdRef="Sequence_5">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                 <x:Boolean x:Key="IsPinned">False</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
@@ -669,9 +669,9 @@
                                 </sap:WorkflowViewStateService.ViewState>
                                 <TryCatch DisplayName="Intentar capturar" sap:VirtualizedContainerService.HintSize="436.8,489.6" sap2010:WorkflowViewState.IdRef="TryCatch_2">
                                   <TryCatch.Try>
-                                    <uix:NTakeScreenshot DisplayName="Realizar captura de pantalla 'Employee InformationEmp…'" FileName="[&quot;./results/&quot; + singleCounter.ToString() + &quot;_EmploymentStatus_&quot; + EmploymentStatus + &quot;_&quot; + singleDate + &quot;.png&quot;]" FileNameMode="None" sap:VirtualizedContainerService.HintSize="333.6,233.6" sap2010:WorkflowViewState.IdRef="NTakeScreenshot_7" ScopeIdentifier="cc2bbf7f-0907-4a3b-b4e9-7de67af63450" Version="V3">
+                                    <uix:NTakeScreenshot DisplayName="Realizar captura de pantalla ' •'" FileName="[&quot;./results/&quot; + singleCounter.ToString() + &quot;_EmploymentStatus_&quot; + EmploymentStatus + &quot;_&quot; + singleDate + &quot;.png&quot;]" FileNameMode="None" sap:VirtualizedContainerService.HintSize="333.6,233.6" sap2010:WorkflowViewState.IdRef="NTakeScreenshot_7" ScopeIdentifier="cc2bbf7f-0907-4a3b-b4e9-7de67af63450" Version="V3">
                                       <uix:NTakeScreenshot.Target>
-                                        <uix:TargetAnchorable BrowserURL="https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewEmployeeList" DesignTimeRectangle="389, 312, 1466, 383" DesignTimeScaleFactor="1.25" FriendlyName="'Employee InformationEmp…'" FullSelectorArgument="&lt;webctrl class='oxd-table-filter' parentid='app' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl class='oxd-table-filter' parentid='app' tag='DIV' type='' aaname='' check:innerText='Employee Information&amp;#xD;&amp;#xA;Employee Name&amp;#xD;&amp;#xA;Employee Id&amp;#xD;&amp;#xA;Employment Status&amp;#xD;&amp;#xA;-- Select --&amp;#xD;&amp;#xA;Include&amp;#xD;&amp;#xA;Current' /&gt;" Guid="8076cc31-1ca6-4499-95d4-5424d12858c5" ImageBase64="" InformativeScreenshot="a457a79367c2faba1f0f45a5fc7f98be.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='OrangeHRM' /&gt;" SearchSteps="Selector" Version="V2" Visibility="Interactive" />
+                                        <uix:TargetAnchorable DesignTimeRectangle="9, 307, 1906, 905" DesignTimeScaleFactor="1.25" FriendlyName="' •'" FullSelectorArgument="&lt;ctrl name='OrangeHRM' role='document' /&gt;&lt;ctrl role='grouping' /&gt;" FuzzySelectorArgument="&lt;ctrl name='OrangeHRM' role='document' /&gt;&lt;ctrl role='grouping' automationid='' check:fulltext='&amp;#xD;&amp;#xA;•  Admin&amp;#xD;&amp;#xA;•  PIM&amp;#xD;&amp;#xA;•  Leave&amp;#xD;&amp;#xA;•  Time&amp;#xD;&amp;#xA;•  Recruitment&amp;#xD;&amp;#xA;•  My Info&amp;#xD;&amp;#xA;•  Performance&amp;#xD;&amp;#xA;•  Dashboard&amp;#xD;&amp;#xA;•' /&gt;" Guid="b6959f48-2a92-4745-9edb-d8c117c502af" InformativeScreenshot="e3d0b4cd9111b31064d673189735a15c.png" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='OrangeHRM - Google Chrome' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V2" Visibility="Interactive" />
                                       </uix:NTakeScreenshot.Target>
                                     </uix:NTakeScreenshot>
                                   </TryCatch.Try>
@@ -765,9 +765,9 @@
                                 </sap:WorkflowViewStateService.ViewState>
                                 <TryCatch DisplayName="Intentar capturar" sap:VirtualizedContainerService.HintSize="436.8,489.6" sap2010:WorkflowViewState.IdRef="TryCatch_4">
                                   <TryCatch.Try>
-                                    <uix:NTakeScreenshot DisplayName="Realizar captura de pantalla 'Employee InformationEmp…'" FileName="[&quot;./results/&quot; + singleCounter.ToString() + &quot;_Include_&quot; + Include + &quot;_&quot; + singleDate + &quot;.png&quot;]" FileNameMode="None" sap:VirtualizedContainerService.HintSize="333.6,233.6" sap2010:WorkflowViewState.IdRef="NTakeScreenshot_10" ScopeIdentifier="cc2bbf7f-0907-4a3b-b4e9-7de67af63450" Version="V3">
+                                    <uix:NTakeScreenshot DisplayName="Realizar captura de pantalla ' •'" FileName="[&quot;./results/&quot; + singleCounter.ToString() + &quot;_Include_&quot; + Include + &quot;_&quot; + singleDate + &quot;.png&quot;]" FileNameMode="None" sap:VirtualizedContainerService.HintSize="333.6,233.6" sap2010:WorkflowViewState.IdRef="NTakeScreenshot_10" ScopeIdentifier="cc2bbf7f-0907-4a3b-b4e9-7de67af63450" Version="V3">
                                       <uix:NTakeScreenshot.Target>
-                                        <uix:TargetAnchorable BrowserURL="https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewEmployeeList" DesignTimeRectangle="389, 312, 1466, 383" DesignTimeScaleFactor="1.25" FriendlyName="'Employee InformationEmp…'" FullSelectorArgument="&lt;webctrl class='oxd-table-filter' parentid='app' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl class='oxd-table-filter' parentid='app' tag='DIV' type='' aaname='' check:innerText='Employee Information&amp;#xD;&amp;#xA;Employee Name&amp;#xD;&amp;#xA;Employee Id&amp;#xD;&amp;#xA;Employment Status&amp;#xD;&amp;#xA;-- Select --&amp;#xD;&amp;#xA;Include&amp;#xD;&amp;#xA;Current' /&gt;" Guid="8076cc31-1ca6-4499-95d4-5424d12858c5" ImageBase64="" InformativeScreenshot="a457a79367c2faba1f0f45a5fc7f98be.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='OrangeHRM' /&gt;" SearchSteps="Selector" Version="V2" Visibility="Interactive" />
+                                        <uix:TargetAnchorable DesignTimeRectangle="9, 307, 1906, 905" DesignTimeScaleFactor="1.25" FriendlyName="' •'" FullSelectorArgument="&lt;ctrl name='OrangeHRM' role='document' /&gt;&lt;ctrl role='grouping' /&gt;" FuzzySelectorArgument="&lt;ctrl name='OrangeHRM' role='document' /&gt;&lt;ctrl role='grouping' automationid='' check:fulltext='&amp;#xD;&amp;#xA;•  Admin&amp;#xD;&amp;#xA;•  PIM&amp;#xD;&amp;#xA;•  Leave&amp;#xD;&amp;#xA;•  Time&amp;#xD;&amp;#xA;•  Recruitment&amp;#xD;&amp;#xA;•  My Info&amp;#xD;&amp;#xA;•  Performance&amp;#xD;&amp;#xA;•  Dashboard&amp;#xD;&amp;#xA;•' /&gt;" Guid="4c778ffc-7c8d-4e46-bc4c-e9860bfa657f" InformativeScreenshot="ccd797ffa4d51c79457b4bec733c3504.png" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='OrangeHRM - Google Chrome' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V2" Visibility="Interactive" />
                                       </uix:NTakeScreenshot.Target>
                                     </uix:NTakeScreenshot>
                                   </TryCatch.Try>
@@ -842,13 +842,13 @@
                         </Sequence>
                       </If.Then>
                       <If.Else>
-                        <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="1064,1041.6" sap2010:WorkflowViewState.IdRef="Sequence_56">
+                        <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="1064,908" sap2010:WorkflowViewState.IdRef="Sequence_56">
                           <sap:WorkflowViewStateService.ViewState>
                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
                               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                             </scg:Dictionary>
                           </sap:WorkflowViewStateService.ViewState>
-                          <uix:NCheckState DisplayName="Comprobar estado de aplicación JobTitle" sap:VirtualizedContainerService.HintSize="1001.6,955.2" sap2010:WorkflowViewState.IdRef="NCheckState_2" ScopeIdentifier="cc2bbf7f-0907-4a3b-b4e9-7de67af63450" Version="V3">
+                          <uix:NCheckState DisplayName="Comprobar estado de aplicación JobTitle" sap:VirtualizedContainerService.HintSize="1001.6,821.6" sap2010:WorkflowViewState.IdRef="NCheckState_2" ScopeIdentifier="cc2bbf7f-0907-4a3b-b4e9-7de67af63450" Version="V3">
                             <uix:NCheckState.IfExists>
                               <Sequence DisplayName="Aparece el destino" sap:VirtualizedContainerService.HintSize="449.6,272.8" sap2010:WorkflowViewState.IdRef="Sequence_28">
                                 <sap:WorkflowViewStateService.ViewState>
@@ -864,22 +864,22 @@
                               </Sequence>
                             </uix:NCheckState.IfExists>
                             <uix:NCheckState.IfNotExists>
-                              <Sequence DisplayName="No aparece el destino" sap:VirtualizedContainerService.HintSize="499.2,713.6" sap2010:WorkflowViewState.IdRef="Sequence_29">
+                              <Sequence DisplayName="No aparece el destino" sap:VirtualizedContainerService.HintSize="499.2,580" sap2010:WorkflowViewState.IdRef="Sequence_29">
                                 <sap:WorkflowViewStateService.ViewState>
                                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                   </scg:Dictionary>
                                 </sap:WorkflowViewStateService.ViewState>
-                                <TryCatch DisplayName="Intentar capturar" sap:VirtualizedContainerService.HintSize="436.8,623.2" sap2010:WorkflowViewState.IdRef="TryCatch_6">
+                                <TryCatch DisplayName="Intentar capturar" sap:VirtualizedContainerService.HintSize="436.8,489.6" sap2010:WorkflowViewState.IdRef="TryCatch_6">
                                   <TryCatch.Try>
-                                    <uix:NTakeScreenshot DisplayName="Realizar captura de pantalla 'Employee InformationEmp…'" FileName="[&quot;./results/&quot; + singleCounter.ToString() + &quot;_JobTitle_&quot; + JotTitle + &quot;_&quot; + singleDate + &quot;.png&quot;]" FileNameMode="None" sap:VirtualizedContainerService.HintSize="333.6,233.6" sap2010:WorkflowViewState.IdRef="NTakeScreenshot_12" ScopeIdentifier="cc2bbf7f-0907-4a3b-b4e9-7de67af63450" Version="V3">
+                                    <uix:NTakeScreenshot DisplayName="Realizar captura de pantalla ' •'" FileName="[&quot;./results/&quot; + singleCounter.ToString() + &quot;_JobTitle_&quot; + JotTitle + &quot;_&quot; + singleDate + &quot;.png&quot;]" FileNameMode="None" sap:VirtualizedContainerService.HintSize="333.6,233.6" sap2010:WorkflowViewState.IdRef="NTakeScreenshot_12" ScopeIdentifier="cc2bbf7f-0907-4a3b-b4e9-7de67af63450" Version="V3">
                                       <uix:NTakeScreenshot.Target>
-                                        <uix:TargetAnchorable BrowserURL="https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewEmployeeList" DesignTimeRectangle="389, 312, 1466, 383" DesignTimeScaleFactor="1.25" FriendlyName="'Employee InformationEmp…'" FullSelectorArgument="&lt;webctrl class='oxd-table-filter' parentid='app' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl class='oxd-table-filter' parentid='app' tag='DIV' type='' aaname='' check:innerText='Employee Information&amp;#xD;&amp;#xA;Employee Name&amp;#xD;&amp;#xA;Employee Id&amp;#xD;&amp;#xA;Employment Status&amp;#xD;&amp;#xA;-- Select --&amp;#xD;&amp;#xA;Include&amp;#xD;&amp;#xA;Current' /&gt;" Guid="8076cc31-1ca6-4499-95d4-5424d12858c5" ImageBase64="" InformativeScreenshot="a457a79367c2faba1f0f45a5fc7f98be.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='OrangeHRM' /&gt;" SearchSteps="Selector" Version="V2" Visibility="Interactive" />
+                                        <uix:TargetAnchorable DesignTimeRectangle="9, 307, 1906, 905" DesignTimeScaleFactor="1.25" FriendlyName="' •'" FullSelectorArgument="&lt;ctrl name='OrangeHRM' role='document' /&gt;&lt;ctrl role='grouping' /&gt;" FuzzySelectorArgument="&lt;ctrl name='OrangeHRM' role='document' /&gt;&lt;ctrl role='grouping' automationid='' check:fulltext='&amp;#xD;&amp;#xA;•  Admin&amp;#xD;&amp;#xA;•  PIM&amp;#xD;&amp;#xA;•  Leave&amp;#xD;&amp;#xA;•  Time&amp;#xD;&amp;#xA;•  Recruitment&amp;#xD;&amp;#xA;•  My Info&amp;#xD;&amp;#xA;•  Performance&amp;#xD;&amp;#xA;•  Dashboard&amp;#xD;&amp;#xA;•' /&gt;" Guid="1aa84b78-fc1e-4cc5-8c50-19ecf40d32fb" InformativeScreenshot="f38d9cd061dd3442dfb9766d97c4680a.png" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='OrangeHRM - Google Chrome' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V2" Visibility="Interactive" />
                                       </uix:NTakeScreenshot.Target>
                                     </uix:NTakeScreenshot>
                                   </TryCatch.Try>
                                   <TryCatch.Catches>
-                                    <Catch x:TypeArguments="s:Exception" sap:VirtualizedContainerService.HintSize="400,156.8" sap2010:WorkflowViewState.IdRef="Catch`1_6">
+                                    <Catch x:TypeArguments="s:Exception" sap:VirtualizedContainerService.HintSize="403.2,23.2" sap2010:WorkflowViewState.IdRef="Catch`1_6">
                                       <sap:WorkflowViewStateService.ViewState>
                                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                           <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -968,9 +968,9 @@
                                 </sap:WorkflowViewStateService.ViewState>
                                 <TryCatch DisplayName="Intentar capturar" sap:VirtualizedContainerService.HintSize="436.8,489.6" sap2010:WorkflowViewState.IdRef="TryCatch_8">
                                   <TryCatch.Try>
-                                    <uix:NTakeScreenshot DisplayName="Realizar captura de pantalla 'Employee InformationEmp…'" FileName="[&quot;./results/&quot; + singleCounter.ToString() + &quot;_SubUnit_&quot; + SubUnit + &quot;_&quot; + singleDate + &quot;.png&quot;]" FileNameMode="None" sap:VirtualizedContainerService.HintSize="333.6,233.6" sap2010:WorkflowViewState.IdRef="NTakeScreenshot_14" ScopeIdentifier="cc2bbf7f-0907-4a3b-b4e9-7de67af63450" Version="V3">
+                                    <uix:NTakeScreenshot DisplayName="Realizar captura de pantalla ' •'" FileName="[&quot;./results/&quot; + singleCounter.ToString() + &quot;_SubUnit_&quot; + SubUnit + &quot;_&quot; + singleDate + &quot;.png&quot;]" FileNameMode="None" sap:VirtualizedContainerService.HintSize="333.6,233.6" sap2010:WorkflowViewState.IdRef="NTakeScreenshot_14" ScopeIdentifier="cc2bbf7f-0907-4a3b-b4e9-7de67af63450" Version="V3">
                                       <uix:NTakeScreenshot.Target>
-                                        <uix:TargetAnchorable BrowserURL="https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewEmployeeList" DesignTimeRectangle="389, 312, 1466, 383" DesignTimeScaleFactor="1.25" FriendlyName="'Employee InformationEmp…'" FullSelectorArgument="&lt;webctrl class='oxd-table-filter' parentid='app' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl class='oxd-table-filter' parentid='app' tag='DIV' type='' aaname='' check:innerText='Employee Information&amp;#xD;&amp;#xA;Employee Name&amp;#xD;&amp;#xA;Employee Id&amp;#xD;&amp;#xA;Employment Status&amp;#xD;&amp;#xA;-- Select --&amp;#xD;&amp;#xA;Include&amp;#xD;&amp;#xA;Current' /&gt;" Guid="8076cc31-1ca6-4499-95d4-5424d12858c5" ImageBase64="" InformativeScreenshot="a457a79367c2faba1f0f45a5fc7f98be.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='OrangeHRM' /&gt;" SearchSteps="Selector" Version="V2" Visibility="Interactive" />
+                                        <uix:TargetAnchorable DesignTimeRectangle="9, 307, 1906, 905" DesignTimeScaleFactor="1.25" FriendlyName="' •'" FullSelectorArgument="&lt;ctrl name='OrangeHRM' role='document' /&gt;&lt;ctrl role='grouping' /&gt;" FuzzySelectorArgument="&lt;ctrl name='OrangeHRM' role='document' /&gt;&lt;ctrl role='grouping' automationid='' check:fulltext='&amp;#xD;&amp;#xA;•  Admin&amp;#xD;&amp;#xA;•  PIM&amp;#xD;&amp;#xA;•  Leave&amp;#xD;&amp;#xA;•  Time&amp;#xD;&amp;#xA;•  Recruitment&amp;#xD;&amp;#xA;•  My Info&amp;#xD;&amp;#xA;•  Performance&amp;#xD;&amp;#xA;•  Dashboard&amp;#xD;&amp;#xA;•' /&gt;" Guid="8ecdd0f4-50d7-4f16-899b-9279be88bb2e" InformativeScreenshot="8bf14bdca28f1d70118218161147bc0c.png" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='OrangeHRM - Google Chrome' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V2" Visibility="Interactive" />
                                       </uix:NTakeScreenshot.Target>
                                     </uix:NTakeScreenshot>
                                   </TryCatch.Try>
@@ -1215,12 +1215,12 @@
       </uix:NApplicationCard.TargetApp>
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
-          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
           <x:Boolean x:Key="IsPinned">False</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </uix:NApplicationCard>
-    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Utilizar Aplicación/Navegador" sap:VirtualizedContainerService.HintSize="353.6,64.8" sap2010:WorkflowViewState.IdRef="NApplicationCard_4" InUiElement="[Browser1]" OpenMode="Never" ScopeGuid="583bae6d-2ef8-4329-a459-18ecc45cf34d" Version="V2">
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Utilizar Aplicación/Navegador" sap:VirtualizedContainerService.HintSize="1048,64.8" sap2010:WorkflowViewState.IdRef="NApplicationCard_4" InUiElement="[Browser1]" OpenMode="Never" ScopeGuid="583bae6d-2ef8-4329-a459-18ecc45cf34d" Version="V2">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
@@ -1337,7 +1337,7 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </uix:NApplicationCard>
-    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Utilizar Navegador Chrome: Gmail" sap:VirtualizedContainerService.HintSize="353.6,48" sap2010:WorkflowViewState.IdRef="NApplicationCard_6" InteractionMode="DebuggerApi" OpenMode="IfNotOpen" ScopeGuid="1c323c33-3649-4aa5-b9ec-ae67e2169da9" Version="V2">
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Utilizar Navegador Chrome: Gmail" sap:VirtualizedContainerService.HintSize="1048,48" sap2010:WorkflowViewState.IdRef="NApplicationCard_6" InteractionMode="DebuggerApi" OpenMode="IfNotOpen" ScopeGuid="1c323c33-3649-4aa5-b9ec-ae67e2169da9" Version="V2">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
